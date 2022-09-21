@@ -1,9 +1,154 @@
-body {
+  /* COMMON STYLES 
+  -------------------------------- */
+	
+	/* LAYOUT */
+		/* {position:absolute;} */
+		/* {position:relative;} */
+		/* {float:left;} */
+		/* {float:right;} */
+		/* {overflow:hidden;} */
+		/* {display:block;} */
+		/* {display:inline;} */
+		/* {display:none;} */
+		/* {margin:0} */
+		/* {padding:0;} */
+		/* {width:100%;} */
+	
+	/* TYPOGRAPHY */
+		/* {line-height:1;} */
+		/* {list-style-type:none;} */
+		/* {font-size:1em;} */
+		/* {font-style:italic;} */
+		/* {font-style:normal;} */
+		/* {font-weight:bold;} */
+		/* {font-weight:normal;} */
+		/* {text-align:center;} */
+		/* {text-align:right;} */
+		/* {text-align:left;} */
+		/* {text-decoration:underline;} */
+		/* {text-decoration:none;} */
+		/* {text-transform:uppercase;} */
+		/* {text-transform:none;} */
+	
+	/* COLOR */
+		/* {background-color: #fff;} */
+		/* {background-color: transparent;} */
+		/* {border: 1px solid #000;} */
+		/* {border: none;} */
+		/* {color: #000;} */
+		/* {border-radius: 0px;} */
+		/* {transition: all 0.3s ease-in-out;} */
+		
+
+/* BASE 
+	-------------------------------- */
+	body{
     background-color: slategray;
   }
-  
-  h1 {
-    font-family: 'Roboto', sans-serif;
-    color: navy;
-    margin-left: 20px;
-  }
+
+	::selection, ::moz-selection{}
+	.wrapper{}
+
+
+/* HEADER
+	-------------------------------- */
+	.site-header{}
+
+
+/* FOOTER
+	-------------------------------- */
+	.site-footer{}
+	
+
+/* CONTENT
+	-------------------------------- */
+	.site-content{}
+
+	/* LAYOUT */
+	
+	/* BASIC ELEMENTS */
+		div{}
+		p{}
+		blockquote{}
+		code{}
+		img{}
+		a{}
+		em{}
+		strong{}
+		pre{}
+	
+	/* HEADINGS */
+		h1{
+      margin: 0px;
+      border-style:dashed;
+      border-width: 0px;
+      border-color: black;
+      color: white;
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight:700;
+    }
+
+		h2
+    {
+      margin: 0px;
+      color: white;
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight:700;
+    }
+		
+    h3
+    {
+      margin: 0px;
+      color:white;
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight:700;
+    }
+		
+    h4
+    {
+      margin: 0px;
+      color: white;
+      font-family: 'Roboto Mono', sans-serif;
+      font-weight:700;
+    }
+
+    #normalText
+    {
+      margin: 10px;
+      color: white;
+      font-family: 'Roboto Mono', sans-serif;
+      font-size: medium;
+      font-weight:400;
+    }
+	
+	/* TABLES */
+		table{
+      border-style:dashed;
+      border-width: 0px;
+      border-color: black;
+      padding: 0px;
+      
+    }
+		caption{}
+		tr{}
+		thead{}
+		th{}
+		tbody{}
+		td{
+      margin: 0px;
+      border-style: dashed;
+      border-width: 0px;
+      border-color: black;
+    }
+		tfoot{}
+	
+	/* LISTS */
+		dl{}
+		dt{}
+		dd{}
+		ol{}
+		ol li{}
+		ul{}
+		ul li{}
+	
+	/* … */
