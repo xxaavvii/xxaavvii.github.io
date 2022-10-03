@@ -1,87 +1,13 @@
-  /* COMMON STYLES 
-  -------------------------------- */
-	
-	/* LAYOUT */
-		/* {position:absolute;} */
-		/* {position:relative;} */
-		/* {float:left;} */
-		/* {float:right;} */
-		/* {overflow:hidden;} */
-		/* {display:block;} */
-		/* {display:inline;} */
-		/* {display:none;} */
-		/* {margin:0} */
-		/* {padding:0;} */
-		/* {width:100%;} */
-	
-	/* TYPOGRAPHY */
-		/* {line-height:1;} */
-		/* {list-style-type:none;} */
-		/* {font-size:1em;} */
-		/* {font-style:italic;} */
-		/* {font-style:normal;} */
-		/* {font-weight:bold;} */
-		/* {font-weight:normal;} */
-		/* {text-align:center;} */
-		/* {text-align:right;} */
-		/* {text-align:left;} */
-		/* {text-decoration:underline;} */
-		/* {text-decoration:none;} */
-		/* {text-transform:uppercase;} */
-		/* {text-transform:none;} */
-	
-	/* COLOR */
-		/* {background-color: #fff;} */
-		/* {background-color: transparent;} */
-		/* {border: 1px solid #000;} */
-		/* {border: none;} */
-		/* {color: #000;} */
-		/* {border-radius: 0px;} */
-		/* {transition: all 0.3s ease-in-out;} */
-		
 
-/* BASE 
-	-------------------------------- */
 	body{
-    background-color: #757575;
+    background-color: #444444;
+	margin: 0;
+	padding: 0;
   }
 
-	::selection, ::moz-selection{}
-	.wrapper{}
-
-
-/* HEADER
-	-------------------------------- */
-	.site-header{}
-
-
-/* FOOTER
-	-------------------------------- */
-	.site-footer{}
-	
-
-/* CONTENT
-	-------------------------------- */
-	.site-content{}
-
-	/* LAYOUT */
-	
-	/* BASIC ELEMENTS */
-		div{}
-		p{}
-		blockquote{}
-		code{}
-		img{}
-		a{}
-		em{}
-		strong{}
-		pre{}
-
-		
-	
-	/* HEADINGS */
-		h1{
-      margin: 0px;
+  /* +++++++++++++++ HEADINGS +++++++++++++++ */
+	h1{
+	  margin: 0px;
       border-style:dashed;
       border-width: 0px;
       border-color: black;
@@ -90,114 +16,266 @@
       font-weight:800;
 	  font-size: 50px;
     }
+	h1:hover
+	{
+	color: #00FFFF;
+	}
 
-		h2
+	h2
     {
       margin: 0px;
       color: white;
       font-family: 'Inter', sans-serif;
       font-weight:800;
-    }
-		
-    h3
-    {
-      margin: 0px;
-      color:white;
-      font-family: 'Inter', sans-serif;
-      font-weight:800;
-    }
-		
-    h4
-    {
-      margin: 0px;
-      color: white;
-      font-family: 'Inter', sans-serif;
-      font-weight:800;
-    }
-
-    #normalText
-    {
-      color: #333333;
-      font-family: 'Inter', sans-serif;
-      font-size: 14px;
-      font-weight:400;
-    }
-
-	#highlightedText
-    {
-		color: #333333;
-    	background: #00FFFF;
-    	font-family: 'Inter', sans-serif;
-      	font-size: 14px;
-      	font-weight:800;
-    	display: inline;
     }
 	
 	/* TABLES */
-		table{
+	table{
       border-style:dashed;
       border-width: 0px;
       border-color: black;
       padding: 0px;
       
     }
-		caption{}
-		tr{}
-		thead{}
-		th{}
-		tbody{}
-		td{
+
+	td{
       margin: 0px;
       border-style: dashed;
       border-width: 0px;
       border-color: black;
     }
-		tfoot{}
-	
-	/* LISTS */
-		dl{}
-		dt{}
-		dd{}
-		ol{}
-		ol li{}
-		ul{}
-		ul li{}
-	
-	/* … */
 
+	/* LISTS */
+	li{
+		color: #222222;
+		font-family: 'Inter', sans-serif;
+		font-size: 14px;
+		font-weight:400;
+		margin: 7px;
+	}
+
+	/* … */
 	hr{
 		display: block; 
-		width: 80%;
 		height: 1px;
     	border: 0; 
 		border-top: 1px solid #333333;
-    	margin: 0 auto; 
-		padding: 0; 
 	}
 
-	.nav-bar {
+	/* +++++++++++++++ TEXT STYLES +++++++++++++++ */
+	#normalText
+    {
+      color: #222222;
+      font-family: 'Inter', sans-serif;
+      font-size: 14px;
+      font-weight:400;
+	  line-height: 1.6;
+    }
+
+	#highlightedText
+    {
+		color: #222222;
+    	background: #00FFFF;
+    	font-family: 'Inter', sans-serif;
+      	font-size: 18px;
+      	font-weight:800;
+    	display: inline;
+    }
+
+	#blueTitleText {
+		color:  #00FFFF;
+		font-family: 'Inter', sans-serif;
+		font-size: 18px;
+		font-weight:800;
+	}
+
+	/* +++++++++++++++ MAIN CONTAINER +++++++++++++++ */
+	.main-container {
+		background-color: #757575;
+		width: 900px;
+		height: 100%;
+		padding: 50px;
+		border: 0px;
+		margin: 0 auto;
+	}
+	@media screen and (max-width:1000px) {
+		.main-container {
+		width: 90%;
+		margin: 0;
+		}
+	}
+
+	/* +++++++++++++++ HEADER +++++++++++++++ */
+
+	.header {
 		display: grid;
 		grid-template-columns: auto auto;
-		
-		
-		width: 80%;
-		height: 80px;
-		line-height: 80px;
 		margin: 0 auto;
+		line-height: 40px;
+		text-align: left;
+		padding-bottom: 15px;
+	}
+	@media screen and (max-width:1000px) {
+		.header {
+		grid-template-columns: auto;
+		padding-bottom: 0px;
+		}
 	}
 
-	.section-desc{
-		margin: 0 auto;
-		width: 80%;
+	.nav-bar-flexbox {
+		display: flex;
+		width:100%;
+		margin: 0;
+		justify-content:flex-end;
+	}
+	@media screen and (max-width:1000px) {
+		.nav-bar-flexbox {
+		justify-content:flex-start;
+		margin-top: 15px;
+		}
 	}
 
-	.cover-grid {
+	.nav-bar-button {
+		padding-left: 30px;
+		padding-right: 0px;
+		text-align: right;
+		color: #B2B2B2;
+		font-family: 'Inter', sans-serif;
+		font-size: 20px;
+		font-weight:800;
+	}
+	@media screen and (max-width:1000px) {
+		.nav-bar-button {
+		padding-left: 0px;
+		padding-right: 30px;
+		text-align: left;
+		justify-content:flex-start;
+		}
+	}
+
+	.nav-bar-button:hover {
+		text-align: center;
+		color: white;
+	}
+
+	a:hover, a:visited, a:link, a:active
+	{
+    text-decoration: none;
+	}
+
+	/* +++++++++++++++ LAYOUT GRIDS +++++++++++++++ */
+	.game-top-grid {
+		display: grid;
+		grid-template-columns: 48% 50%;
+		grid-gap: 30px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	@media screen and (max-width:1000px) {
+		.game-top-grid {
+		grid-template-columns: 365px;
+		}
+	}
+
+	.game-additional-info-grid {
+		display: grid;
+		grid-template-columns: 20% 70%;
+		grid-column-gap: 20px;
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	@media screen and (max-width:1000px) {
+		.game-additional-info-grid {
+		grid-template-columns: 365px;
+		}
+	}
+
+	.about-grid {
+		display: grid;
+		grid-template-columns: 60% 40%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	@media screen and (max-width:1000px) {
+		.about-grid {
+		grid-template-columns: 365px;
+		}
+	}
+
+	.keywords-grid {
+		display: grid;
+		grid-template-columns: 33% 33% 33%;
+		grid-gap: 15px;
+		padding-top: 5px;
+		padding-bottom: 20px;
+		text-align: center;
+	}
+	@media screen and (max-width:1000px) {
+		.keywords-grid {
+		grid-template-columns: 365px;
+		}
+	}
+
+	.resume-grid {
+		display: grid;
+		grid-template-columns: 25% 75%;
+		grid-column-gap: 20px;
+		grid-row-gap: 5px;
+		padding-top: 5px;
+		/*padding-bottom: 20px;*/
+	}
+	@media screen and (max-width:1000px) {
+		.resume-grid {
+		grid-template-columns: 365px;
+		}
+	}
+
+	.two-column-description{
+		column-count: 2;
+		column-gap: 20px;
+
+	}
+	@media screen and (max-width:1000px) {
+		.two-column-description {
+		column-count: 1;
+		}
+	}
+
+	.footer {
+		display: grid;
+		grid-template-columns: auto auto;
+	}
+		
+	/* +++++++++++++++ PICTURE GRIDS +++++++++++++++ */
+
+	.front-page-grid {
 		display: grid;
 		grid-template-columns: auto auto auto;
 		justify-content: stretch;
 		grid-gap: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
 		margin: 0 auto;
-		width: 80%;
+	}
+	@media screen and (max-width:1000px) {
+		.front-page-grid {
+		grid-template-columns: auto auto;
+		}
+	}
+
+	.for-fun-grid {
+		display: grid;
+		grid-template-columns: auto auto;
+		justify-content: stretch;
+		grid-gap: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		margin: 0 auto;
+	}
+	@media screen and (max-width:1000px) {
+		.for-fun-grid {
+		grid-template-columns: auto;
+		}
 	}
 
 	.banner-box {
@@ -205,10 +283,25 @@
 		object-fit:cover;
 	}
 
-	.bottom-bar {
+	.banner-box-button {
+		box-shadow: 3px 3px 4px #333333;
+		object-fit:cover;
+	}
+	.banner-box-button:hover {
+		box-shadow: 2px 2px 1px #555555;
+	}
+
+	.hd-game-horizontal-grid {
 		display: grid;
 		grid-template-columns: auto auto;
-
+		justify-content: stretch;
+		grid-gap: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
 		margin: 0 auto;
-		width: 80%;
+	}
+	@media screen and (max-width:1000px) {
+		.hd-game-horizontal-grid {
+		grid-template-columns: 450px;
+		}
 	}
