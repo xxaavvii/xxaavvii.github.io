@@ -52,6 +52,7 @@
 		font-size: 14px;
 		font-weight:400;
 		margin: 7px;
+		line-height: 1.6;
 	}
 
 	/* … */
@@ -65,11 +66,30 @@
 	/* +++++++++++++++ TEXT STYLES +++++++++++++++ */
 	#normalText
     {
-      color: #222222;
+      color: #111111;
       font-family: 'Inter', sans-serif;
       font-size: 14px;
       font-weight:400;
 	  line-height: 1.6;
+	  word-break: normal;
+
+	  -webkit-hyphens: auto;
+   	  hyphens: auto;
+
+	 text-align: justify;
+	 text-justify: inter-word;
+    }
+
+	#citationText
+    {
+      color: #111111;
+      font-family: 'Inter', sans-serif;
+      font-size: 16px;
+      font-weight:400;
+	  line-height: 1.6;
+	  word-break: normal;
+	  margin-left: 3%;
+	  font-style: italic;
     }
 
 	#highlightedText
@@ -89,9 +109,23 @@
 		font-weight:800;
 	}
 
+	.bluePostIt
+    {
+		color: #00FFFF;
+    	background: #222222;
+    	font-family: 'Inter', sans-serif;
+      	font-size: 12px;
+      	font-weight:800;
+    	display: inline;
+		padding: 5px;
+		margin-left: 5px;
+		line-height: 3;
+		word-break: keep-all;
+    }
+
 	/* +++++++++++++++ MAIN CONTAINER +++++++++++++++ */
 	.main-container {
-		background-color: #757575;
+		background-color: #858585; /* #757575 */;
 		width: 900px;
 		height: 100%;
 		padding: 50px;
@@ -289,6 +323,7 @@
 	}
 	.banner-box-button:hover {
 		box-shadow: 2px 2px 1px #555555;
+		filter: brightness(1.1);
 	}
 
 	.hd-game-horizontal-grid {
@@ -304,4 +339,40 @@
 		.hd-game-horizontal-grid {
 		grid-template-columns: 450px;
 		}
+	}
+
+	.hd-game-vertical-grid {
+		display: grid;
+		grid-template-columns: auto auto auto;
+		justify-content: stretch;
+		grid-gap: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		margin: 0 auto;
+	}
+	@media screen and (max-width:1000px) {
+		.hd-game-vertical-grid {
+		grid-template-columns: auto auto;
+		/*grid-template-columns: 250px;*/
+		}
+	}
+
+	.java-game-grid {
+		display: grid;
+		grid-template-columns: auto auto auto auto;
+		justify-content: stretch;
+		grid-gap: 20px;
+		padding-top: 20px;
+		padding-bottom: 30px;
+		margin: 0 auto;
+	}
+	@media screen and (max-width:1000px) {
+		.java-game-grid {
+		grid-template-columns: auto auto;
+		/*grid-template-columns: 250px;*/
+		}
+	}
+
+	.java-double-picture {
+		grid-column: span 2;
 	}
