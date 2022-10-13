@@ -1,4 +1,10 @@
 
+/* 
+576px for portrait phones
+768px for tablets
+992px for laptops 
+*/
+
 	body{
     background-color: #444444;
 	margin: 0;
@@ -53,6 +59,12 @@
 		font-weight:400;
 		margin: 0.5em;
 		line-height: 1.6;
+
+		-webkit-hyphens: auto;
+   	  	hyphens: auto;
+
+	 	text-align: justify;
+	 	text-justify: inter-word;
 	}
 
 	/* … */
@@ -92,6 +104,17 @@
 	  font-style: italic;
     }
 
+	#footnoteText
+    {
+      color: #111111;
+      font-family: 'Inter', sans-serif;
+      font-size: 0.88em;
+      font-weight:400;
+	  line-height: 1.8;
+	  font-style: italic;
+
+    }
+
 	#highlightedText
     {
 		color: #222222;
@@ -114,7 +137,7 @@
 		color: #00FFFF;
     	background: #222222;
     	font-family: 'Inter', sans-serif;
-      	font-size: 0.75em;
+      	font-size: 1em;
       	font-weight:800;
     	display: inline;
 		padding: 1%;
@@ -133,12 +156,6 @@
 		border: 0em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:1000px) {
-		.main-container {
-		width: 90%;
-		margin: 0;
-		}
-	}
 
 	/* +++++++++++++++ HEADER +++++++++++++++ */
 
@@ -150,7 +167,7 @@
 		text-align: left;
 		padding-bottom: 1em;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:992px) {
 		.header {
 		grid-template-columns: auto;
 		padding-bottom: 0px;
@@ -163,10 +180,11 @@
 		margin: 0;
 		justify-content:flex-end;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:992px) {
 		.nav-bar-flexbox {
 		justify-content:flex-start;
-		margin-top: 15px;
+		margin-top: 2em;
+		margin-bottom: 1em;
 		}
 	}
 
@@ -179,10 +197,10 @@
 		font-size: 1.4em;
 		font-weight:800;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:992px) {
 		.nav-bar-button {
 		padding-left: 0px;
-		padding-right: 30px;
+		padding-right: 1em;
 		text-align: left;
 		justify-content:flex-start;
 		}
@@ -202,13 +220,13 @@
 	.game-top-grid {
 		display: grid;
 		grid-template-columns: 48% 50%;
-		grid-gap: 30px;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		grid-gap: 2em;
+		padding-top: 0.7em;
+		padding-bottom: 0.7em;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.game-top-grid {
-		grid-template-columns: 365px;
+		grid-template-columns: 95%;
 		}
 	}
 
@@ -219,9 +237,9 @@
 		padding-top: 0.3em;
 		padding-bottom: 0.8em;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.game-additional-info-grid {
-		grid-template-columns: 365px;
+		grid-template-columns: 95%;
 		}
 	}
 
@@ -231,9 +249,9 @@
 		padding-top: 0.8em;
 		padding-bottom: 0.8em;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.about-grid {
-		grid-template-columns: 365px;
+		grid-template-columns: 95%;
 		}
 	}
 
@@ -243,11 +261,12 @@
 		grid-column-gap: 1em;
 		grid-row-gap: 0.3em;
 		padding-top: 0.3em;
-		/*padding-bottom: 20px;*/
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.resume-grid {
-		grid-template-columns: 365px;
+		grid-template-columns: 95%;
+		grid-column-gap: 1em;
+		grid-row-gap: 1em;
 		}
 	}
 
@@ -256,7 +275,7 @@
 		column-gap: 1.4em;
 
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.two-column-description {
 		column-count: 1;
 		}
@@ -279,9 +298,9 @@
 		padding-bottom: 2em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.front-page-grid {
-		grid-template-columns: auto auto;
+		grid-template-columns: 48% 48%;
 		}
 	}
 
@@ -295,9 +314,9 @@
 		padding-bottom: 2em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.for-fun-grid {
-		grid-template-columns: auto;
+		grid-template-columns: 95%;
 		}
 	}
 
@@ -324,9 +343,9 @@
 		padding-bottom: 3em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.hd-game-horizontal-grid {
-		grid-template-columns: 450px;
+		grid-template-columns: 95%;
 		}
 	}
 
@@ -339,10 +358,10 @@
 		padding-bottom: 3em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.hd-game-vertical-grid {
-		grid-template-columns: auto auto;
-		/*grid-template-columns: 250px;*/
+		grid-template-columns: 47% 47%;
+		grid-gap: 3%;
 		}
 	}
 
@@ -355,10 +374,10 @@
 		padding-bottom: 3em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:1000px) {
+	@media screen and (max-width:576px) {
 		.java-game-grid {
-		grid-template-columns: auto auto;
-		/*grid-template-columns: 250px;*/
+		grid-template-columns: 47% 47%;
+		grid-gap: 3%;
 		}
 	}
 
