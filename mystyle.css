@@ -7,14 +7,14 @@
 
   /* +++++++++++++++ HEADINGS +++++++++++++++ */
 	h1{
-	  margin: 0px;
+	  margin: 0em;
       border-style:dashed;
-      border-width: 0px;
+      border-width: 0em;
       border-color: black;
       color: #333333;
       font-family: 'Inter', sans-serif;
       font-weight:800;
-	  font-size: 50px;
+	  font-size: 3.3em;
     }
 	h1:hover
 	{
@@ -49,9 +49,9 @@
 	li{
 		color: #222222;
 		font-family: 'Inter', sans-serif;
-		font-size: 14px;
+		font-size: 0.88em;
 		font-weight:400;
-		margin: 7px;
+		margin: 0.5em;
 		line-height: 1.6;
 	}
 
@@ -59,7 +59,7 @@
 	hr{
 		display: block; 
 		height: 1px;
-    	border: 0; 
+    	border: 0;
 		border-top: 1px solid #333333;
 	}
 
@@ -68,7 +68,7 @@
     {
       color: #111111;
       font-family: 'Inter', sans-serif;
-      font-size: 14px;
+      font-size: 0.88em;
       font-weight:400;
 	  line-height: 1.6;
 	  word-break: normal;
@@ -84,7 +84,7 @@
     {
       color: #111111;
       font-family: 'Inter', sans-serif;
-      font-size: 16px;
+      font-size: 1.1em;
       font-weight:400;
 	  line-height: 1.6;
 	  word-break: normal;
@@ -97,7 +97,7 @@
 		color: #222222;
     	background: #00FFFF;
     	font-family: 'Inter', sans-serif;
-      	font-size: 18px;
+      	font-size: 1.2em;
       	font-weight:800;
     	display: inline;
     }
@@ -105,7 +105,7 @@
 	#blueTitleText {
 		color:  #00FFFF;
 		font-family: 'Inter', sans-serif;
-		font-size: 18px;
+		font-size: 1.15em;
 		font-weight:800;
 	}
 
@@ -114,22 +114,23 @@
 		color: #00FFFF;
     	background: #222222;
     	font-family: 'Inter', sans-serif;
-      	font-size: 12px;
+      	font-size: 0.75em;
       	font-weight:800;
     	display: inline;
-		padding: 5px;
-		margin-left: 5px;
-		line-height: 3;
+		padding: 1%;
+		margin-left: 1%;
+		line-height: 3.3;
 		word-break: keep-all;
     }
 
 	/* +++++++++++++++ MAIN CONTAINER +++++++++++++++ */
 	.main-container {
-		background-color: #858585; /* #757575 */;
-		width: 900px;
+		background-color: #858585;
+		width: 90%;
+		max-width: 900px;
 		height: 100%;
-		padding: 50px;
-		border: 0px;
+		padding: 3em;
+		border: 0em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
@@ -145,9 +146,9 @@
 		display: grid;
 		grid-template-columns: auto auto;
 		margin: 0 auto;
-		line-height: 40px;
+		line-height: 2em;
 		text-align: left;
-		padding-bottom: 15px;
+		padding-bottom: 1em;
 	}
 	@media screen and (max-width:1000px) {
 		.header {
@@ -170,12 +171,12 @@
 	}
 
 	.nav-bar-button {
-		padding-left: 30px;
-		padding-right: 0px;
+		padding-left: 1.8em;
+		padding-right: 0em;
 		text-align: right;
 		color: #B2B2B2;
 		font-family: 'Inter', sans-serif;
-		font-size: 20px;
+		font-size: 1.4em;
 		font-weight:800;
 	}
 	@media screen and (max-width:1000px) {
@@ -214,9 +215,9 @@
 	.game-additional-info-grid {
 		display: grid;
 		grid-template-columns: 20% 70%;
-		grid-column-gap: 20px;
-		padding-top: 5px;
-		padding-bottom: 10px;
+		grid-column-gap: 2%;
+		padding-top: 0.3em;
+		padding-bottom: 0.8em;
 	}
 	@media screen and (max-width:1000px) {
 		.game-additional-info-grid {
@@ -227,8 +228,8 @@
 	.about-grid {
 		display: grid;
 		grid-template-columns: 60% 40%;
-		padding-top: 10px;
-		padding-bottom: 10px;
+		padding-top: 0.8em;
+		padding-bottom: 0.8em;
 	}
 	@media screen and (max-width:1000px) {
 		.about-grid {
@@ -236,26 +237,12 @@
 		}
 	}
 
-	.keywords-grid {
-		display: grid;
-		grid-template-columns: 33% 33% 33%;
-		grid-gap: 15px;
-		padding-top: 5px;
-		padding-bottom: 20px;
-		text-align: center;
-	}
-	@media screen and (max-width:1000px) {
-		.keywords-grid {
-		grid-template-columns: 365px;
-		}
-	}
-
 	.resume-grid {
 		display: grid;
 		grid-template-columns: 25% 75%;
-		grid-column-gap: 20px;
-		grid-row-gap: 5px;
-		padding-top: 5px;
+		grid-column-gap: 1em;
+		grid-row-gap: 0.3em;
+		padding-top: 0.3em;
 		/*padding-bottom: 20px;*/
 	}
 	@media screen and (max-width:1000px) {
@@ -266,7 +253,7 @@
 
 	.two-column-description{
 		column-count: 2;
-		column-gap: 20px;
+		column-gap: 1.4em;
 
 	}
 	@media screen and (max-width:1000px) {
@@ -284,11 +271,12 @@
 
 	.front-page-grid {
 		display: grid;
-		grid-template-columns: auto auto auto;
+		grid-template-columns: 32% 32% 32%;
 		justify-content: stretch;
-		grid-gap: 20px;
-		padding-top: 20px;
-		padding-bottom: 30px;
+		column-gap: 2%;
+		row-gap: 2%;
+		padding-top: 1em;
+		padding-bottom: 4em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
@@ -299,11 +287,12 @@
 
 	.for-fun-grid {
 		display: grid;
-		grid-template-columns: auto auto;
+		grid-template-columns: 49% 49%;
 		justify-content: stretch;
-		grid-gap: 20px;
-		padding-top: 20px;
-		padding-bottom: 30px;
+		column-gap: 2%;
+		row-gap: 4%;
+		padding-top: 1em;
+		padding-bottom: 2em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
@@ -313,26 +302,26 @@
 	}
 
 	.banner-box {
-		box-shadow: 3px 3px 4px #333333;
+		box-shadow: 0.25em 0.25em 0.35em #333333;
 		object-fit:cover;
 	}
 
 	.banner-box-button {
-		box-shadow: 3px 3px 4px #333333;
+		box-shadow: 0.25em 0.25em 0.35em #333333;
 		object-fit:cover;
 	}
 	.banner-box-button:hover {
-		box-shadow: 2px 2px 1px #555555;
+		box-shadow: 0.1em 0.1em 0.2em #555555;
 		filter: brightness(1.1);
 	}
 
 	.hd-game-horizontal-grid {
 		display: grid;
-		grid-template-columns: auto auto;
-		justify-content: stretch;
-		grid-gap: 20px;
-		padding-top: 20px;
-		padding-bottom: 30px;
+		grid-template-columns: 49% 49%;
+		justify-content: cover;
+		grid-gap: 2%;
+		padding-top: 2em;
+		padding-bottom: 3em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
@@ -343,11 +332,11 @@
 
 	.hd-game-vertical-grid {
 		display: grid;
-		grid-template-columns: auto auto auto;
+		grid-template-columns: 32% 32% 32%;
 		justify-content: stretch;
-		grid-gap: 20px;
-		padding-top: 20px;
-		padding-bottom: 30px;
+		grid-gap: 2%;
+		padding-top: 2em;
+		padding-bottom: 3em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
@@ -359,11 +348,11 @@
 
 	.java-game-grid {
 		display: grid;
-		grid-template-columns: auto auto auto auto;
-		justify-content: stretch;
-		grid-gap: 20px;
-		padding-top: 20px;
-		padding-bottom: 30px;
+		grid-template-columns: 22% 22% 22% 22% ;
+		justify-content:stretch;
+		grid-gap: 2%;
+		padding-top: 2em;
+		padding-bottom: 3em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
