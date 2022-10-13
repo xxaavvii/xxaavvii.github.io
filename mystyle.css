@@ -328,6 +328,7 @@
 	.banner-box-button {
 		box-shadow: 0.25em 0.25em 0.35em #333333;
 		object-fit:cover;
+		background-color: #444444;
 	}
 	.banner-box-button:hover {
 		box-shadow: 0.1em 0.1em 0.2em #555555;
