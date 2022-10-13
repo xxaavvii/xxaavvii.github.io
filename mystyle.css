@@ -273,10 +273,10 @@
 		display: grid;
 		grid-template-columns: 32% 32% 32%;
 		justify-content: stretch;
-		column-gap: 2%;
-		row-gap: 2%;
+		column-gap: 1em;
+		row-gap: 1em;
 		padding-top: 1em;
-		padding-bottom: 4em;
+		padding-bottom: 2em;
 		margin: 0 auto;
 	}
 	@media screen and (max-width:1000px) {
@@ -289,8 +289,8 @@
 		display: grid;
 		grid-template-columns: 49% 49%;
 		justify-content: stretch;
-		column-gap: 2%;
-		row-gap: 4%;
+		column-gap: 1em;
+		row-gap: 1em;
 		padding-top: 1em;
 		padding-bottom: 2em;
 		margin: 0 auto;
