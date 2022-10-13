@@ -224,7 +224,7 @@
 		padding-top: 0.7em;
 		padding-bottom: 0.7em;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.game-top-grid {
 		grid-template-columns: 95%;
 		}
@@ -237,7 +237,7 @@
 		padding-top: 0.3em;
 		padding-bottom: 0.8em;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.game-additional-info-grid {
 		grid-template-columns: 95%;
 		}
@@ -249,7 +249,7 @@
 		padding-top: 0.8em;
 		padding-bottom: 0.8em;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.about-grid {
 		grid-template-columns: 95%;
 		}
@@ -262,7 +262,7 @@
 		grid-row-gap: 0.3em;
 		padding-top: 0.3em;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.resume-grid {
 		grid-template-columns: 95%;
 		grid-column-gap: 1em;
@@ -275,7 +275,7 @@
 		column-gap: 1.4em;
 
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.two-column-description {
 		column-count: 1;
 		}
@@ -298,7 +298,7 @@
 		padding-bottom: 2em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.front-page-grid {
 		grid-template-columns: 48% 48%;
 		}
@@ -314,7 +314,7 @@
 		padding-bottom: 2em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.for-fun-grid {
 		grid-template-columns: 95%;
 		}
@@ -343,7 +343,7 @@
 		padding-bottom: 3em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.hd-game-horizontal-grid {
 		grid-template-columns: 95%;
 		}
@@ -358,7 +358,7 @@
 		padding-bottom: 3em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.hd-game-vertical-grid {
 		grid-template-columns: 47% 47%;
 		grid-gap: 3%;
@@ -374,7 +374,7 @@
 		padding-bottom: 3em;
 		margin: 0 auto;
 	}
-	@media screen and (max-width:576px) {
+	@media screen and (max-width:768px) {
 		.java-game-grid {
 		grid-template-columns: 47% 47%;
 		grid-gap: 3%;
