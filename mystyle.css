@@ -229,6 +229,17 @@ hr {
 	}
 }
 
+@media screen and (max-width:576px) {
+	.nav-bar-button {
+		padding-left: 0em;
+		padding-right: 0em;
+		text-align: center;
+		justify-content: flex-start;
+		line-height: 1.5;
+		font-size: 1.6em;
+	}
+}
+
 .nav-bar-button:hover {
 	text-align: center;
 	color: white;
