@@ -1,196 +1,237 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>XA ·· Minion Rush</title>
-      <meta name="description" content="Behind the scenes comments and insight from the development of Minion Rush by Gameloft"/>
-      <meta name="keywords" content="game design, game designer, mobile, games, video games, F2P, free to play, Minions, Minion Rush, Despicable Me, Gameloft"/>       
-      <link rel="stylesheet" href="../mystyle.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4WWP94176D');
-      </script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>XA ·· Minion Rush</title>
+  <meta name="description"
+    content="Behind the scenes comments and insight from the development of Minion Rush by Gameloft" />
+  <meta name="keywords"
+    content="game design, game designer, mobile, games, video games, F2P, free to play, Minions, Minion Rush, Despicable Me, Gameloft" />
+  <link rel="stylesheet" href="../mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="main-container"> <!-- Main Container -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-4WWP94176D');
+  </script>
+</head>
 
-      <div class="header"> <!-- Page Header -->
+<body>
+  <div class="main-container">
+    <!-- Main Container -->
+
+    <div class="header">
+      <!-- Page Header -->
+      <a href="../index.html">
+        <h1>Xavier Agulló</h1>
+      </a>
+
+      <div class="nav-bar-flexbox">
         <a href="../index.html">
-          <h1>Xavier Agulló</h1>
+          <div class="nav-bar-button" style="color:#00FFFF">
+            Work
+          </div>
         </a>
-
-        <div class="nav-bar-flexbox">
-          <a href="../index.html">
-            <div class="nav-bar-button" style="color:#00FFFF">
-              Work
-            </div>
-          </a>
-          <a href="../for_fun.html">
-            <div class="nav-bar-button">
-              For Fun
-            </div>
-          </a>
-          <a href="../about.html">
-            <div class="nav-bar-button">
-              About
-            </div>
-          </a>
-          <a href="../resume.html">
-            <div class="nav-bar-button">
-              Resume
-            </div>
-          </a>
-        </div>
+        <a href="../for_fun.html">
+          <div class="nav-bar-button">
+            For Fun
+          </div>
+        </a>
+        <a href="../about.html">
+          <div class="nav-bar-button">
+            About
+          </div>
+        </a>
+        <a href="../resume.html">
+          <div class="nav-bar-button">
+            Resume
+          </div>
+        </a>
       </div>
+    </div>
+    <hr>
+
+    <!-- Game Contents -->
+    <div class="game-top-grid">
+      <div>
+        <!-- Banner Picture -->
+        <img style="box-shadow: 3px 3px 4px #333333" src="../banners/MinionRush_banner.png" alt="Minion Rush" width=100%
+          height=auto>
+      </div>
+      <div>
+        <!-- About the Game -->
+        <p id="highlightedText">Minion Rush</p>
+        <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
+        <ul style="margin-top: 0px;">
+          <li><strong>Company: </strong>Gameloft</li>
+          <li><strong>Genre: </strong>Runner</li>
+          <li><strong>Release Date: </strong>June 2013</li>
+          <li><strong>Downloads: </strong>1000+ million
+            <br>(50 million just in the first 30 days)
+          </li>
+          <li><strong>Size at release: </strong>96MB (at release)</li>
+          <li><strong>Distinctions: </strong>BAFTA Kids Award 2013
+            <br>Selected for Apple’s “Best of 2013”
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <!-- About my work -->
       <hr>
+      <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
 
-      <!-- Game Contents -->
-      <div class="game-top-grid">
-        <div><!-- Banner Picture -->
-          <img style="box-shadow: 3px 3px 4px #333333" src="../banners/MinionRush_banner.png" alt="Minion Rush" width=100% height=auto>
-        </div>
-        <div><!-- About the Game -->
-          <p id="highlightedText">Minion Rush</p>
-          <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
-          <ul style="margin-top: 0px;">
-            <li><strong>Company: </strong>Gameloft</li>
-            <li><strong>Genre: </strong>Runner</li>
-            <li><strong>Release Date: </strong>June 2013</li>
-            <li><strong>Downloads: </strong>1000+ million
-              <br>(50 million just in the first 30 days)
-              </li>
-            <li><strong>Size at release: </strong>96MB (at release)</li>
-            <li><strong>Distinctions: </strong>BAFTA Kids Award 2013
-              <br>Selected for Apple’s “Best of 2013”
-              </li>
-          </ul>
-        </div>
-      </div>
-
-      <div><!-- About my work -->
-        <hr>
-        <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
-        
-        <div class="two-column-description">
-          <p id="normalText" style="margin-top: 0px;">
-            After spending a year and a half in China and a few months working for a trading consultancy agency (don’t ask) I came back to “Gameloft Barcelona”. While I was gone the industry had changed completely. Game teams were much bigger and, more importantly, the business model shifted from “Paid” to “free-to-play”. It was then that I landed on a very special project, “Despicable Me: Minion Rush”.
-            <br><br>
-            I joined the team during development, just after the game underwent a radical pivot from 2D to 3D. It was the first time I was not leading the design of a game, instead I joined a team of 6 designers. Some of my contributions were the design of mini-games (“The Moon”, “Fluffy the Unicorn”...), a lot of level design and most notably the design and coordination of the first Liveops event (The so-called “Special Missions”). I’m also proud of that time where I reverse-engineered the content files and found a way to reskin levels which saved literally hundreds of man-hours to the level designers.
-            <br><br>
-            The game had low ARPU (Average Revenue per User) which is now widely accepted as an endemic condition for runner games. However, due to brand strength and game quality, we had a gigantic stream of organic users and the game became a solid money making machine.
-            <br><br>
-            It was an honor to work on that team back then, we felt we were making history (if anything, the history of F2P).  
-          </p>
-
-        </div>
-
-        <br>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Download it for iOS</u>
-            <img src="../icons/icon_ios.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Download it for Android</u>
-            <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
+      <div class="two-column-description">
+        <p id="normalText" style="margin-top: 0px;">
+          After spending a year and a half in China and a few months working for a trading consultancy agency (don’t
+          ask) I came back to “Gameloft Barcelona”. While I was gone the industry had changed completely. Game teams
+          were much bigger and, more importantly, the business model shifted from “Paid” to “free-to-play”. It was then
+          that I landed on a very special project, “Despicable Me: Minion Rush”.
+          <br><br>
+          I joined the team during development, just after the game underwent a radical pivot from 2D to 3D. It was the
+          first time I was not leading the design of a game, instead I joined a team of 6 designers. Some of my
+          contributions were the design of mini-games (“The Moon”, “Fluffy the Unicorn”...), a lot of level design and
+          most notably the design and coordination of the first Liveops event (The so-called “Special Missions”). I’m
+          also proud of that time where I reverse-engineered the content files and found a way to reskin levels which
+          saved literally hundreds of man-hours to the level designers.
+          <br><br>
+          The game had low ARPU (Average Revenue per User) which is now widely accepted as an endemic condition for
+          runner games. However, due to brand strength and game quality, we had a gigantic stream of organic users and
+          the game became a solid money making machine.
+          <br><br>
+          It was an honor to work on that team back then, we felt we were making history (if anything, the history of
+          F2P).
+        </p>
 
       </div>
+
       <br>
+      <a href="https://apps.apple.com/us/app/minion-rush-running-game/id596402997" target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Download it for iOS</u>
+          <img src="../icons/icon_ios.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftDMHM&hl=en&gl=US"
+        target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Download it for Android</u>
+          <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
 
-      <!-- Game Additional Info - Learnings -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
-          <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>How to work under the supervision of a Design Lead (fortunately a competent one!).</li>
-            <li>How to work effectively in a big development team (between 30-40 people).</li>
-            <li>How freemium works, despite “Minion Rush” being a lite version of it.</li>
-          </ul>
-        </div>
+    </div>
+    <br>
+
+    <!-- Game Additional Info - Learnings -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
+        <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
       </div>
-      
-      <!-- Game Additional Info - Proud -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
-          <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>Being a solid link between the high level design of the core team and the development trenches.</li>
-            <li>The design of the Liveop events, which boosted greatly the game revenues.</li>
-            <li>Contributing to a top level game in multiple fields including, UI, balancing, levels and systems design.</li>
-          </ul>
-        </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>How to work under the supervision of a Design Lead (fortunately a competent one!).</li>
+          <li>How to work effectively in a big development team (between 30-40 people).</li>
+          <li>How freemium works, despite “Minion Rush” being a lite version of it.</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Game Pictures -->
-      <hr>
-      <div class="hd-game-vertical-grid">
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr01.png" alt="Minion Rush" width=100% height=auto>
-          <p id="footnoteText">+ The game had plenty of delighters and even losing triggered funny animations.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr02.png" alt="Minion Rush" width=100% height=auto>
-          <p id="footnoteText">+ One of the monetisation venues was the sale of costumes.</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr03.png" alt="Minion Rush" width=100% height=auto>
-          <p id="footnoteText">+ The moon mini-game was one of my best contributions.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr04.png" alt="Minion Rush" width=100% height=auto>
-          <p id="footnoteText">+ I’m also proud of designing and coordinating the “Special Missions”</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr05.png" alt="Minion Rush" width=100% height=auto>
-          <p id="footnoteText">+ Here are some obstacles documentation I made for the level design team.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr06.png" alt="Minion Rush" width=100% height=auto>
-          <p id="footnoteText">+ We made a cool proposal for a new game in the series …but it never happened!</p>
-        </div>
-        
+    <!-- Game Additional Info - Proud -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
+        <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
       </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>Being a solid link between the high level design of the core team and the development trenches.</li>
+          <li>The design of the Liveop events, which boosted greatly the game revenues.</li>
+          <li>Contributing to a top level game in multiple fields including, UI, balancing, levels and systems design.
+          </li>
+        </ul>
+      </div>
+    </div>
 
-      <!-- Bottom Bar -->
-      <hr>
-      <div class="footer">
-        <div>
-          <p id="normalText">Made with plain HTML <∕> & CSS { }</p>
-        </div>
-        <div>
-            <a href="https://www.google.com/">
-              <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px" style="margin-top:7px">
-            </a>
-        </div>
+    <!-- Game Pictures -->
+    <hr>
+    <div class="hd-game-vertical-grid">
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr01.png" alt="Minion Rush" width=100%
+          height=auto>
+        <p id="footnoteText">+ The game had plenty of delighters and even losing triggered funny animations.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr02.png" alt="Minion Rush" width=100%
+          height=auto>
+        <p id="footnoteText">+ One of the monetisation venues was the sale of costumes.</p>
       </div>
 
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr03.png" alt="Minion Rush" width=100%
+          height=auto>
+        <p id="footnoteText">+ The moon mini-game was one of my best contributions.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr04.png" alt="Minion Rush" width=100%
+          height=auto>
+        <p id="footnoteText">+ I’m also proud of designing and coordinating the “Special Missions”</p>
+      </div>
 
-    </div> <!-- Main Container End -->
-  </body>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr05.png" alt="Minion Rush" width=100%
+          height=auto>
+        <p id="footnoteText">+ Here are some obstacles documentation I made for the level design team.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-mr06.png" alt="Minion Rush" width=100%
+          height=auto>
+        <p id="footnoteText">+ We made a cool proposal for a new game in the series …but it never happened!</p>
+      </div>
+
+    </div>
+
+    <p id="normalText">
+      <strong>Special thanks: </strong>Alexander Chiveli, Alexandru Adam, Alice Lavedrine, Ando Roose, Baptiste
+      Dubessay, Beniamin Durski, Bojan Pantelic, Camila Dalence, Carlos Martínez Alvarez, Carlos Navarrete, Cristian
+      Iordache, Cristian Iordache, David Llort, David Mayola, Deniss Nikolajev, Diego Barragán, Emanuel Costan, Fabio
+      Dalla Costa, Ferran Mestres, Francisco Vega, Francisco Viloria, Gerard Gine, Guillem Reig, Igor Ivinski, Iván
+      Lobón Herrera, Javier Barnés, Jordi Granados, José David Tuero, José María Rodríguez, Julián Pérez, Julio César,
+      Luca Vezzaro, Manu Ruiz, Martina Witjaksana, Miguel Angel Rubio, Miguel Borham, Mihai Sebea, Nicolás Martín, Paco
+      Jover, Pedro Martín, Ricardo Vargas, Roc Alabern, Roi Veiga Novás, Ruth Martínez, Saul Gascón, Sergi Díaz, Sergi
+      Lluch, Sergi Mestra, Tatsugoro Kawakami, Toni Sala, Victor Ortiz, Victor Ruiz, Yasser Bushara.
+    </p>
+    <br>
+
+    <!-- Bottom Bar -->
+    <hr>
+    <div class="footer">
+      <div>
+        <p id="normalText">Made with HTML <∕> & CSS { }</p>
+      </div>
+      <div>
+        <a href="https://www.google.com/">
+          <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px"
+            style="margin-top:7px">
+        </a>
+      </div>
+    </div>
+
+
+  </div> <!-- Main Container End -->
+</body>
 
 </html>

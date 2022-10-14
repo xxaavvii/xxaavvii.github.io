@@ -1,192 +1,232 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>XA ·· Tasty Town</title>
-      <meta name="description" content="Behind the scenes comments and insight from the development of Tasty Town by Socialpoint"/>
-      <meta name="keywords" content="game design, game designer, mobile, games, video games, F2P, free to play, Tasty Town, Chef Paradise, Socialpoint, Social Point"/>       
-      <link rel="stylesheet" href="../mystyle.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4WWP94176D');
-      </script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>XA ·· Tasty Town</title>
+  <meta name="description"
+    content="Behind the scenes comments and insight from the development of Tasty Town by Socialpoint" />
+  <meta name="keywords"
+    content="game design, game designer, mobile, games, video games, F2P, free to play, Tasty Town, Chef Paradise, Socialpoint, Social Point" />
+  <link rel="stylesheet" href="../mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="main-container"> <!-- Main Container -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-4WWP94176D');
+  </script>
+</head>
 
-      <div class="header"> <!-- Page Header -->
+<body>
+  <div class="main-container">
+    <!-- Main Container -->
+
+    <div class="header">
+      <!-- Page Header -->
+      <a href="../index.html">
+        <h1>Xavier Agulló</h1>
+      </a>
+
+      <div class="nav-bar-flexbox">
         <a href="../index.html">
-          <h1>Xavier Agulló</h1>
+          <div class="nav-bar-button" style="color:#00FFFF">
+            Work
+          </div>
         </a>
-
-        <div class="nav-bar-flexbox">
-          <a href="../index.html">
-            <div class="nav-bar-button" style="color:#00FFFF">
-              Work
-            </div>
-          </a>
-          <a href="../for_fun.html">
-            <div class="nav-bar-button">
-              For Fun
-            </div>
-          </a>
-          <a href="../about.html">
-            <div class="nav-bar-button">
-              About
-            </div>
-          </a>
-          <a href="../resume.html">
-            <div class="nav-bar-button">
-              Resume
-            </div>
-          </a>
-        </div>
+        <a href="../for_fun.html">
+          <div class="nav-bar-button">
+            For Fun
+          </div>
+        </a>
+        <a href="../about.html">
+          <div class="nav-bar-button">
+            About
+          </div>
+        </a>
+        <a href="../resume.html">
+          <div class="nav-bar-button">
+            Resume
+          </div>
+        </a>
       </div>
+    </div>
+    <hr>
+
+    <!-- Game Contents -->
+    <div class="game-top-grid">
+      <div>
+        <!-- Banner Picture -->
+        <img style="box-shadow: 3px 3px 4px #333333" src="../banners/TastyTown_banner.png" alt="Tasty Town" width=100%
+          height=auto>
+      </div>
+      <div>
+        <!-- About the Game -->
+        <p id="highlightedText">Tasty Town</p>
+        <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
+        <ul style="margin-top: 0px;">
+          <li><strong>Company: </strong>Social Point</li>
+          <li><strong>Genre: </strong>Crafting / Resource Management</li>
+          <li><strong>Release Date: </strong>January 2019</li>
+          <li><strong>Downloads: </strong>8 million (as of Oct’22)</li>
+          <li><strong>Size at release: </strong>110MB</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <!-- About my work -->
       <hr>
+      <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
 
-      <!-- Game Contents -->
-      <div class="game-top-grid">
-        <div><!-- Banner Picture -->
-          <img style="box-shadow: 3px 3px 4px #333333" src="../banners/TastyTown_banner.png" alt="Tasty Town" width=100% height=auto>
-        </div>
-        <div><!-- About the Game -->
-          <p id="highlightedText">Tasty Town</p>
-          <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
-          <ul style="margin-top: 0px;">
-            <li><strong>Company: </strong>Social Point</li>
-            <li><strong>Genre: </strong>Crafting / Resource Management</li>
-            <li><strong>Release Date: </strong>January 2019</li>
-            <li><strong>Downloads: </strong>8 million (as of Oct’22)</li>
-            <li><strong>Size at release: </strong>110MB</li>
-          </ul>
-        </div>
-      </div>
+      <div class="two-column-description">
+        <p id="normalText" style="margin-top: 0px;">
+          Everyone at Socialpoint felt “World Chef” deserved a second attempt, “WC has good ingredients… but we need to
+          find the perfect sauce!”. And that is how “Tasty Town” was born.
+          <br><br>
+          The leadership of Social Point felt we had learned how to make this type of game. However, the two original
+          game designers from “World Chef” were tossed aside for the direction of the new game. One of them was moved
+          into another project and, in my case, I was demoted …or that’s how it felt when I was out of the preproduction
+          stage for the new game. The leadership team grew exponentially with decisions led by the product owner, lead
+          game designer, a producer and up to three product managers. My new responsibilites involved mainly writing
+          documentation along with the new design intern.
+          <br><br>
+          My contributions to “World Chef” were notable but it turns out I failed to communicate, report and align with
+          the stakeholders and, consequently, didn’t earn the trust required to step up in the new project. Things
+          turned worse when, after a few months, I expressed my disagreement with the direction of the project and
+          presented some alternate proposals. This led to some turmoil and even personal conflict with my superiors, but
+          it never spilled into the team. I stayed in the project for a while but moved into another department before
+          the game was released world-wide.
+          <br><br>
+          “Tasty Town” slightly improved ARPU over “World Chef”, but at the expense of retention and counted with
+          overall worse KPI. This was a disappointment for what was a long, expensive project built upon a solid base.
+          In my opinion the game felt disjointed and some decisions (like the non-linear unlocking of content) not only
+          worsened the player experience but the control of the economy on the developer side.
+          <br><br>
+          Despite all this personal drama, “Tasty Town” succeeded on many fronts. The updated UI/UX was first class, the
+          social layer worked great, the art was gorgeous and the overall experience was really polished and bug free.
 
-      <div><!-- About my work -->
-        <hr>
-        <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
-        
-        <div class="two-column-description">
-          <p id="normalText" style="margin-top: 0px;">
-            Everyone at Socialpoint felt “World Chef” deserved a second attempt, “WC has good ingredients… but we need to find the perfect sauce!”. And that is how “Tasty Town” was born.
-            <br><br>
-            The leadership of Social Point felt we had learned how to make this type of game. However, the two original game designers from “World Chef '' were tossed aside for the direction of the new game. One of them was moved into another project and, in my case, I was demoted …or that’s how it felt when I was out of the preproduction stage for the new game. The team grew exponentially with decisions led by the product owner, lead game designer, a producer and up to three product managers. My new responsibilites involved mainly writing documentation along with the new design intern.
-            <br><br>
-            My contributions to “World Chef” were notable but it turns out I failed to communicate, report and align with the stakeholders and, consequently, didn’t earn the trust required to step up in the new project. Things turned worse when, after a few months, I expressed my disagreement with the direction of the project and presented some alternate proposals. This led to some turmoil and even personal conflict with my superiors, but it never spilled into the team. I stayed in the project for a while but moved into another department before the game was released world-wide.
-            <br><br>
-            “Tasty Town” slightly improved ARPU over “World Chef”, but at the expense of retention and counted with overall worse KPI. This was a disappointment for what was a long, expensive project built upon a solid base. In my opinion the game felt disjointed and some decisions (like the non-linear unlocking of content) not only worsened the player experience but the control of the economy on the developer side.
-            <br><br>
-            Despite all this personal drama, “Tasty Town” succeeded on many fronts. The updated UI/UX was first class, the social layer worked great, the art was gorgeous and the overall experience was really polished and bug free.
-  
-          </p>
-
-        </div>
-
-        <br>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Download it for iOS</u>
-            <img src="../icons/icon_ios.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Download it for Android</u>
-            <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
+        </p>
 
       </div>
+
       <br>
+      <a href="https://apps.apple.com/es/app/tasty-town-the-cooking-game/id1202932265?l=en" target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Download it for iOS</u>
+          <img src="../icons/icon_ios.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=es.socialpoint.chefparadise&hl=en&gl=US" target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Download it for Android</u>
+          <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
 
-      <!-- Game Additional Info - Learnings -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
-          <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>Dealing with personal conflict at work.</li>
-            <li>Top UI/UX practices from my talented colleagues.</li>
-            <li>Creating and organizing detailed documentation.</li>
-          </ul>
-        </div>
+    </div>
+    <br>
+
+    <!-- Game Additional Info - Learnings -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
+        <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
       </div>
-      
-      <!-- Game Additional Info - Proud -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
-          <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>An elaborate benchmark and deep dive into competitor games.</li>
-          </ul>
-        </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>Dealing with personal conflict at work.</li>
+          <li>Top UI/UX practices from my talented colleagues.</li>
+          <li>Creating and organizing detailed documentation.</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Game Pictures -->
-      <hr>
-      <div class="hd-game-horizontal-grid">
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt01.png" alt="Tasty Town" width=100% height=auto>
-          <p id="footnoteText">+ This time, on top of your restaurant, you need to manage a farm!</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt02.png" alt="Tasty Town" width=100% height=auto>
-          <p id="footnoteText">+ The team did a great job with all the social features.</p>
-        </div>
+    <!-- Game Additional Info - Proud -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
+        <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
+      </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>An elaborate benchmark and deep dive into competitor games.</li>
+        </ul>
+      </div>
+    </div>
 
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt03.png" alt="Tasty Town" width=100% height=auto>
-          <p id="footnoteText">+ “Tasty Town” counted with a fully featured “dash game”. A game within a game!</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt04.png" alt="Tasty Town" width=100% height=auto>
-          <p id="footnoteText">+ The art was outstanding, look at these cute farm animals!</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt05.png" alt="Tasty Town" width=100% height=auto>
-          <p id="footnoteText">+ The dish icons looked so good it was guaranteed to pique your appetite.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt06.png" alt="Tasty Town" width=100% height=auto>
-          <p id="footnoteText">+ The documentation was very detailed. Here are some examples from our Confluence page.</p>
-        </div>
-        
+    <!-- Game Pictures -->
+    <hr>
+    <div class="hd-game-horizontal-grid">
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt01.png" alt="Tasty Town" width=100%
+          height=auto>
+        <p id="footnoteText">+ This time, on top of your restaurant, you need to manage a farm!</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt02.png" alt="Tasty Town" width=100%
+          height=auto>
+        <p id="footnoteText">+ The team did a great job with all the social features.</p>
       </div>
 
-      <!-- Bottom Bar -->
-      <hr>
-      <div class="footer">
-        <div>
-          <p id="normalText">Made with plain HTML <∕> & CSS { }</p>
-        </div>
-        <div>
-            <a href="https://www.google.com/">
-              <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px" style="margin-top:7px">
-            </a>
-        </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt03.png" alt="Tasty Town" width=100%
+          height=auto>
+        <p id="footnoteText">+ “Tasty Town” counted with a fully featured “dash game”. A game within a game!</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt04.png" alt="Tasty Town" width=100%
+          height=auto>
+        <p id="footnoteText">+ The art was outstanding, look at these cute farm animals!</p>
       </div>
 
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt05.png" alt="Tasty Town" width=100%
+          height=auto>
+        <p id="footnoteText">+ The dish icons looked so good it was guaranteed to pique your appetite.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tt06.png" alt="Tasty Town" width=100%
+          height=auto>
+        <p id="footnoteText">+ The documentation was very detailed. Here are some examples from our Confluence page.</p>
+      </div>
 
-    </div> <!-- Main Container End -->
-  </body>
+    </div>
+
+    <p id="normalText">
+      <strong>Special thanks: </strong>Alexandre Besenval, Alexandre Macmillan, Anna Jones, Annique Bustos, Antoine
+      Giudicelli, Blanca Joplin, Celia González, David Bell, Edgar Sicilia, Gianluca Panniello, Glenn Andrew Teeuw,
+      Gonzalo Vazquez, Goscha Osarov, Ian Monge, Ignacio Montes, Javier G Alcalde, Jean-Luc Lardoux, Jesús García, Joana
+      Marques, Jonathan González, Juan Maturana, Juanjo Mejías, Karlos Molinos, Kaspar Kappstein, Marta Plaza, Oscar
+      Noguera, Rafael Lecina.
+    </p>
+    <br>
+
+    <!-- Bottom Bar -->
+    <hr>
+    <div class="footer">
+      <div>
+        <p id="normalText">Made with HTML <∕> & CSS { }</p>
+      </div>
+      <div>
+        <a href="https://www.google.com/">
+          <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px"
+            style="margin-top:7px">
+        </a>
+      </div>
+    </div>
+
+
+  </div> <!-- Main Container End -->
+</body>
 
 </html>

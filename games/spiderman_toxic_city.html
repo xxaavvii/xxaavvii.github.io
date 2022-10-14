@@ -1,193 +1,229 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>XA ·· Spider-man: Toxic City</title>
-      <meta name="description" content="Behind the scenes comments and insight from the development of 'Spider-man: Toxic City' by Gameloft"/>
-      <meta name="keywords" content="game design, game designer, mobile, games, video games, java, phone, Spiderman, Spider-man, Toxic City, Gameloft"/>       
-      <link rel="stylesheet" href="../mystyle.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4WWP94176D');
-      </script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>XA ·· Spider-man: Toxic City</title>
+  <meta name="description"
+    content="Behind the scenes comments and insight from the development of 'Spider-man: Toxic City' by Gameloft" />
+  <meta name="keywords"
+    content="game design, game designer, mobile, games, video games, java, phone, Spiderman, Spider-man, Toxic City, Gameloft" />
+  <link rel="stylesheet" href="../mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="main-container"> <!-- Main Container -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-4WWP94176D');
+  </script>
+</head>
 
-      <div class="header"> <!-- Page Header -->
+<body>
+  <div class="main-container">
+    <!-- Main Container -->
+
+    <div class="header">
+      <!-- Page Header -->
+      <a href="../index.html">
+        <h1>Xavier Agulló</h1>
+      </a>
+
+      <div class="nav-bar-flexbox">
         <a href="../index.html">
-          <h1>Xavier Agulló</h1>
+          <div class="nav-bar-button" style="color:#00FFFF">
+            Work
+          </div>
         </a>
-
-        <div class="nav-bar-flexbox">
-          <a href="../index.html">
-            <div class="nav-bar-button" style="color:#00FFFF">
-              Work
-            </div>
-          </a>
-          <a href="../for_fun.html">
-            <div class="nav-bar-button">
-              For Fun
-            </div>
-          </a>
-          <a href="../about.html">
-            <div class="nav-bar-button">
-              About
-            </div>
-          </a>
-          <a href="../resume.html">
-            <div class="nav-bar-button">
-              Resume
-            </div>
-          </a>
-        </div>
+        <a href="../for_fun.html">
+          <div class="nav-bar-button">
+            For Fun
+          </div>
+        </a>
+        <a href="../about.html">
+          <div class="nav-bar-button">
+            About
+          </div>
+        </a>
+        <a href="../resume.html">
+          <div class="nav-bar-button">
+            Resume
+          </div>
+        </a>
       </div>
+    </div>
+    <hr>
+
+    <!-- Game Contents -->
+    <div class="game-top-grid">
+      <div>
+        <!-- Banner Picture -->
+        <img style="box-shadow: 3px 3px 4px #333333" src="../banners/Spiderman_banner.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+      </div>
+      <div>
+        <!-- About the Game -->
+        <p id="highlightedText">Spider-man: Toxic City</p>
+        <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
+        <ul style="margin-top: 0px;">
+          <li><strong>Company: </strong>Gameloft / Marvel License</li>
+          <li><strong>Genre: </strong>Beat ‘em up</li>
+          <li><strong>Release Date: </strong>July 2009</li>
+          <li><strong>Size at release: </strong>995 Kb</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <!-- About my work -->
       <hr>
+      <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
 
-      <!-- Game Contents -->
-      <div class="game-top-grid">
-        <div><!-- Banner Picture -->
-          <img style="box-shadow: 3px 3px 4px #333333" src="../banners/Spiderman_banner.png" alt="Spider-man: Toxic City" width=100% height=auto>
-        </div>
-        <div><!-- About the Game -->
-          <p id="highlightedText">Spider-man: Toxic City</p>
-          <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
-          <ul style="margin-top: 0px;">
-            <li><strong>Company: </strong>Gameloft / Marvel License</li>
-            <li><strong>Genre: </strong>Beat ‘em up</li>
-            <li><strong>Release Date: </strong>July 2009</li>
-            <li><strong>Size at release: </strong>995 Kb</li>
-          </ul>
-        </div>
-      </div>
+      <div class="two-column-description">
+        <p id="normalText" style="margin-top: 0px;">
+          I used to collect classic Spider-man comics when I was in college. I even had a Spider-man costume …but that’s
+          a long story. So I was really excited when I was assigned to do a brawler with Spidey. One of my teammates
+          (and good friend) was also a big comic buff. But what seemed like a dream project proved to be a difficult
+          challenge…
+          <br><br>
+          Moving forward with the designs of Spider-man and the enemies was a very slow process with a lot of back and
+          forth with the licensor and Gameloft HQ. Unlike other genres, fighting games are very dependent on graphic
+          assets since they determine the timing and location of collision boxes. This added considerable stress to the
+          development.
+          <br><br>
+          To adapt a “Beat’em up” to the essence of Spider-man we worked on different features. They ranged from a
+          web-slinging bonus level, to the climbing sections you would expect our favorite spider to crawl. I put a
+          special focus on aerial combat, with lots of jump attacks and combos in the air. The problem is that all this
+          subtlety was lost for those players who simply smashed the “5” button. In retrospect I should have done a
+          better job of introducing those mechanics, enforcing them or, alternatively, devising a simpler system.
+          <br><br>
+          There were a lot of good things too as the game was brimming with “fan service”. It was the first time ever
+          you could control a civilian version of Peter Parker, Mary Jane or unmasked Spider-man. Getting all
+          collectibles unlocked the powerful black suit. We also managed to cram all spidey’s main enemies into a small
+          1MB package.
+          <br><br>
+          Despite all the difficulties, the game was released on time and became a considerable success for Gameloft.
 
-      <div><!-- About my work -->
-        <hr>
-        <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
-        
-        <div class="two-column-description">
-          <p id="normalText" style="margin-top: 0px;">
-            I used to collect classic Spider-man comics when I was in college. I even had a Spider-man costume …but that’s a long story. So I was really excited when I was assigned to do a brawler with Spidey. One of my teammates (and good friend) was also a big comic buff. But what seemed like a dream project proved to be a difficult challenge…
-            <br><br>
-            Moving forward with the designs of Spider-man and the enemies was a very slow process with a lot of back and forth with the licensor and Gameloft HQ. Unlike other genres, fighting games are very dependent on graphic assets since they determine the timing and location of collision boxes. This added considerable stress to the development.
-            <br><br>
-            To adapt a “Beat’em up” to the essence of Spider-man we worked on different features. They ranged from a web-slinging bonus level, to the climbing sections you would expect our favorite spider to crawl. I put a special focus on aerial combat, with lots of jump attacks and combos in the air. The problem is that all this subtlety was lost for those players who simply smashed the “5” button. In retrospect I should have done a better job of introducing those mechanics, enforcing them or, alternatively, devising a simpler system.
-            <br><br>
-            There were a lot of good things too as the game was brimming with “fan service”. It was the first time ever you could control a civilian version of Peter Parker, Mary Jane or unmasked Spider-man. Getting all collectibles unlocked the powerful black suit. We also managed to cram all spidey’s main enemies into a small 1MB package.
-            <br><br>
-            Despite all the difficulties, the game was released on time and became a considerable success for Gameloft.
-  
-          </p>
-
-        </div>
-
-        <br>
-          <a href="../index.html">
-            <p style="margin: 0px; text-align: right;" id="normalText"> 
-              <u>Use a java emulator to play the jar file</u>
-              <img src="../icons/icon_java.png" alt="learnings" width="17px" height="17px">
-            </p>
-          </a>
-        </a>
+        </p>
 
       </div>
+
       <br>
+      <a href="../files/SpiderMan_Toxic_City_240x320.jar" download>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Use a java emulator to play the jar file</u>
+          <img src="../icons/icon_java.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
+      </a>
 
-      <!-- Game Additional Info - Learnings -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
-          <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>How to work with a licensor and account for the feedback overhead.</li>
-            <li>The importance of making the systems “fool-proof” and free of ambiguities.</li>
-            <li>Learned everything about Earth-1610 (“Ultimate Spider-Man” multiverse number).</li>
-          </ul>
-        </div>
+    </div>
+    <br>
+
+    <!-- Game Additional Info - Learnings -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
+        <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
       </div>
-      
-      <!-- Game Additional Info - Proud -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
-          <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>Capturing the essence of Spider-man comics, with plenty of fan-service and extras.</li>
-            <li>The unique attack patterns of the bosses, made each of them a memorable experience.</li>
-            <li>Spidey’s moveset and aerial combos were awesome, if only a bit too deep for the format.</li>
-          </ul>
-        </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>How to work with a licensor and account for the feedback overhead.</li>
+          <li>The importance of making the systems “fool-proof” and free of ambiguities.</li>
+          <li>Learned everything about Earth-1610 (“Ultimate Spider-Man” multiverse number).</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Game Pictures -->
-      <hr>
-      <div class="java-game-grid">
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx01.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ A traditional brawler in the likes of “Double Dragon”.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx02.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ Climbing & web-slinging sections.</p>
-        </div>
+    <!-- Game Additional Info - Proud -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
+        <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
+      </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>Capturing the essence of Spider-man comics, with plenty of fan-service and extras.</li>
+          <li>The unique attack patterns of the bosses, made each of them a memorable experience.</li>
+          <li>Spidey’s moveset and aerial combos were awesome, if only a bit too deep for the format.</li>
+        </ul>
+      </div>
+    </div>
 
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx03.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ Designs based on “Ulimate Spider-Man” series (2000-2011).</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx04.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ The Green Goblin is the main foe in this story.</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx05.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ You can even play as Mary Jane (Spidey’s girlfriend).</p>
-        </div>
-        <div class="java-double-picture">
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx06.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ Spider-Man moved gracefully and looked impressive. But in the end he is nothing but a bunch of pixels!</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx07.png" alt="Spider-man: Toxic City" width=100% height=auto>
-          <p id="footnoteText">+ Send an SMS with the word ‘SPIDER’ to 33123</p>
-        </div>
-        
+    <!-- Game Pictures -->
+    <hr>
+    <div class="java-game-grid">
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx01.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ A traditional brawler in the likes of “Double Dragon”.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx02.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ Climbing & web-slinging sections.</p>
       </div>
 
-      <!-- Bottom Bar -->
-      <hr>
-      <div class="footer">
-        <div>
-          <p id="normalText">Made with plain HTML <∕> & CSS { }</p>
-        </div>
-        <div>
-            <a href="https://www.google.com/">
-              <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px" style="margin-top:7px">
-            </a>
-        </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx03.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ Designs based on “Ulimate Spider-Man” series (2000-2011).</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx04.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ The Green Goblin is the main foe in this story.</p>
       </div>
 
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx05.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ You can even play as Mary Jane (Spidey’s girlfriend).</p>
+      </div>
+      <div class="java-double-picture">
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx06.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ Spider-Man moved gracefully and looked impressive. But in the end he is nothing but a
+          bunch of pixels!</p>
+      </div>
 
-    </div> <!-- Main Container End -->
-  </body>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-smtx07.png" alt="Spider-man: Toxic City"
+          width=100% height=auto>
+        <p id="footnoteText">+ Send an SMS with the word ‘SPIDER’ to 33123</p>
+      </div>
+    </div>
+
+    <p id="normalText">
+      <strong>Special thanks: </strong>Gaël Bertrand, Maxim Sucharski, Millie Maddox, Nicholas J. Pennininipede, Olivier
+      Brassard, Patrick Downs, Sanders Keel, Travis Estrada.
+    </p>
+    <br>
+
+    <!-- Bottom Bar -->
+    <hr>
+    <div class="footer">
+      <div>
+        <p id="normalText">Made with HTML <∕> & CSS { }</p>
+      </div>
+      <div>
+        <a href="https://www.google.com/">
+          <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px"
+            style="margin-top:7px">
+        </a>
+      </div>
+    </div>
+
+
+  </div> <!-- Main Container End -->
+</body>
 
 </html>

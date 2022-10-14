@@ -1,196 +1,240 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>XA ·· Toys & Goblins</title>
-      <meta name="description" content="Behind the scenes comments and insight from the development of Toys & Goblins"/>
-      <meta name="keywords" content="game design, game designer, mobile, games, video games, Toys & Goblins, Toys&Goblins, RingRing, Toy Factory"/>       
-      <link rel="stylesheet" href="../mystyle.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4WWP94176D');
-      </script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>XA ·· Toys & Goblins</title>
+  <meta name="description" content="Behind the scenes comments and insight from the development of Toys & Goblins" />
+  <meta name="keywords"
+    content="game design, game designer, mobile, games, video games, Toys & Goblins, Toys&Goblins, RingRing, Toy Factory" />
+  <link rel="stylesheet" href="../mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="main-container"> <!-- Main Container -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-4WWP94176D');
+  </script>
+</head>
 
-      <div class="header"> <!-- Page Header -->
+<body>
+  <div class="main-container">
+    <!-- Main Container -->
+
+    <div class="header">
+      <!-- Page Header -->
+      <a href="../index.html">
+        <h1>Xavier Agulló</h1>
+      </a>
+
+      <div class="nav-bar-flexbox">
         <a href="../index.html">
-          <h1>Xavier Agulló</h1>
+          <div class="nav-bar-button">
+            Work
+          </div>
         </a>
-
-        <div class="nav-bar-flexbox">
-          <a href="../index.html">
-            <div class="nav-bar-button">
-              Work
-            </div>
-          </a>
-          <a href="../for_fun.html">
-            <div class="nav-bar-button" style="color:#00FFFF">
-              For Fun
-            </div>
-          </a>
-          <a href="../about.html">
-            <div class="nav-bar-button">
-              About
-            </div>
-          </a>
-          <a href="../resume.html">
-            <div class="nav-bar-button">
-              Resume
-            </div>
-          </a>
-        </div>
+        <a href="../for_fun.html">
+          <div class="nav-bar-button" style="color:#00FFFF">
+            For Fun
+          </div>
+        </a>
+        <a href="../about.html">
+          <div class="nav-bar-button">
+            About
+          </div>
+        </a>
+        <a href="../resume.html">
+          <div class="nav-bar-button">
+            Resume
+          </div>
+        </a>
       </div>
+    </div>
+    <hr>
+
+    <!-- Game Contents -->
+    <div class="game-top-grid">
+      <div>
+        <!-- Banner Picture -->
+        <img style="box-shadow: 3px 3px 4px #333333" src="../banners/ToysNGoblins_banner.png" alt="Toys & Goblins"
+          width=100% height=auto>
+      </div>
+      <div>
+        <!-- About the Game -->
+        <p id="highlightedText">Toys & Goblins</p>
+        <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
+        <ul style="margin-top: 0px;">
+          <li><strong>Company: </strong>RingRing</li>
+          <li><strong>Genre: </strong>Crafting</li>
+          <li><strong>Release Date: </strong>June 2018</li>
+          <li><strong>Downloads: </strong>3000+</li>
+          <li><strong>Size at release: </strong>57MB</li>
+          <li><strong>Distinctions: </strong>Featured by Apple in Spain</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <!-- About my work -->
       <hr>
+      <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
 
-      <!-- Game Contents -->
-      <div class="game-top-grid">
-        <div><!-- Banner Picture -->
-          <img style="box-shadow: 3px 3px 4px #333333" src="../banners/ToysNGoblins_banner.png" alt="Toys & Goblins" width=100% height=auto>
-        </div>
-        <div><!-- About the Game -->
-          <p id="highlightedText">Toys & Goblins</p>
-          <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
-          <ul style="margin-top: 0px;">
-            <li><strong>Company: </strong>RingRing</li>
-            <li><strong>Genre: </strong>Crafting</li>
-            <li><strong>Release Date: </strong>June 2018</li>
-            <li><strong>Downloads: </strong>3000+</li>
-            <li><strong>Size at release: </strong>57MB</li>
-            <li><strong>Distinctions: </strong>Featured by Apple in Spain</li>
-          </ul>
-        </div>
-      </div>
+      <div class="two-column-description">
+        <p id="normalText" style="margin-top: 0px;">
+          There was a time when I wasn’t very satisfied at work. I felt that big teams, tangled in endless meetings and
+          stiff (despite their name) work procedures weren’t competitive compared to smaller indie teams. I wanted to
+          prove that with a project of my own: “The Toy Factory” which later became “Toys & Goblins”.
+          <br><br>
+          With “Mystery Puzzle” I realized managing a team while on a full time job was a big overhead for my little
+          bandwidth. So I took a sequential process where first I created the design of the systems, UI screens and even
+          balancing in a spreadsheet. Once that was closed I contacted my talented friend Jordi and together we did all
+          the graphical assets of the game under his art direction. And later we got the help of Isabel, an awesome
+          programmer who implemented the base of the game (architecture, saving/loading, config by JSONs etc.).
+          Unfortunately she had to quit after a while, and I learned C# to “spagetti-code” my way through the end. When
+          the mechanics were ready, we got in touch with Caramel Animation (see “Mystery Puzzle”) who helped us with the
+          animations and made a wonderful trailer for the game.
+          <br><br>
+          The “Toy Factory” ended up much better than I could ever imagine. It was a crafting game that took a few
+          shortcuts (no map editing, no social, no liveops etc.) but contained all the basic mechanics to work,
+          including in-app purchases and video-ads. The game had lots of eye-candy with a consistent art style and
+          colorful, glossy icons. And it didn’t lack content either, with 22 different workshops and almost 100
+          different toys to craft.
+          <br><br>
+          Thanks to this project I could experiment the whole development cycle, from early drafts to store publishing.
+          Dabbled in new areas for me like the setup of Unity Analytics, Unity Ads or ASO. I also acquired users in
+          cheap markets like Mexico and Singapur in what I pompously called “soft launch stage” (200$ total xD). All
+          localized in 8 different languages.
+          <br><br>
+          My original premise was almost right but also wrong, I could develop a full game (if scaled down a bit) on my
+          own by not having to argue about every single pixel and semicolon that goes into the project. However, I found
+          it impossible to acquire users, analyze, iterate and, ultimately, turn it into a profitable F2P venture. When
+          all that was clear, just a few months after release, I decided to remove the game from the stores. The whole
+          adventure took almost 2 years, with a couple pause periods in-between.
+          <br><br>
+          I’m very in love with this one, sometimes I think of resurrecting it. But then I think of the opportunity cost
+          against other projects and I decide to simply move on.
 
-      <div><!-- About my work -->
-        <hr>
-        <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
-        
-        <div class="two-column-description">
-          <p id="normalText" style="margin-top: 0px;">
-            There was a time when I wasn’t very satisfied at work. I felt that big teams, tangled in endless meetings and stiff (despite their name) work procedures weren’t competitive compared to smaller indie teams. I wanted to prove that with a project of my own: “The Toy Factory” which later became “Toys & Goblins”.
-            <br><br>
-            With “Mystery Puzzle” I realized managing a team while on a full time job was a big overhead for my little bandwidth. So I took a sequential process where first I created the design of the systems, UI screens and even balancing in a spreadsheet. Once that was closed I contacted my talented friend Jordi and together we did all the graphical assets of the game under his art direction. And later we got the help of Isabel, an awesome programmer who implemented the base of the game (architecture, saving/loading, config by JSONs etc.). Unfortunately she had to quit after a while, and I learned C# to “spagetti-code” my way through the end. When the mechanics were ready, we got in touch with Caramel Animation (see “Mystery Puzzle”) who helped us with the animations and made a wonderful trailer for the game.
-            <br><br>
-            The “Toy Factory” ended up much better than I could ever imagine. It was a crafting game that took a few shortcuts (no map editing, no social, no liveops etc.) but contained all the basic mechanics to work, including in-app purchases and video-ads. The game had lots of eye-candy with a consistent art style and colorful, glossy icons. And it didn’t lack content either, with 22 different workshops and almost 100 different toys to craft.
-            <br><br>
-            Thanks to this project I could experiment the whole development cycle, from early drafts to store publishing.  Dabbled in new areas for me like the setup of Unity Analytics, Unity Ads or ASO. I also acquired users in cheap markets like Mexico and Singapur in what I pompously called “soft launch stage” (200$ total xD). All localized in 8 different languages.
-            <br><br>
-            My original premise was almost right but also wrong, I could develop a full game (if scaled down a bit) on my own by not having to argue about every single pixel and semicolon that goes into the project. However, I found it impossible to acquire users, analyze, iterate and, ultimately, turn it into a profitable F2P venture. When all that was clear, just a few months after release, I decided to remove the game from the stores. The whole adventure took almost 2 years, with a couple pause periods in-between.
-            <br><br>
-            I’m very in love with this one, sometimes I think of resurrecting it. But then I think of the opportunity cost against other projects and I decide to simply move on.
-
-          </p>
-
-        </div>
-
-        <br>
-        <p style="margin: 0px; text-align: right;" id="normalText"> 
-          <i>The game is not available in the store anymore.</i>
         </p>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Trailer from "Caramel animation"</u>
-            <img src="../icons/icon_youtube.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
 
       </div>
+
       <br>
+      <p style="margin: 0px; text-align: right;" id="normalText">
+        <i>The game is not available in the store anymore.</i>
+      </p>
+      <a href="http://caramel.cat/media/" target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Trailer from "Caramel animation"</u>
+          <img src="../icons/icon_youtube.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
 
-      <!-- Game Additional Info - Learnings -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
-          <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>F2P market is “Winner takes it all”. Making a small game (even at 0 cost) doesn’t guarantee even small returns.</li>
-            <li>Succeeding in F2P is almost impossible without considerable resources.</li>
-            <li>Lots of new skills including C# and the basics of game publishing.</li>
-            <li>If I had to do the game again I would cut on a lot of extras (localisation, game center, etc.) before it is proven a worthwhile effort.</li>
-            <li>A strong pre-production will make development much smoother.</li>
-          </ul>
-        </div>
+    </div>
+    <br>
+
+    <!-- Game Additional Info - Learnings -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
+        <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
       </div>
-      
-      <!-- Game Additional Info - Proud -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
-          <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>Having the grit to complete a complex side project over the course of two years.</li>
-            <li>Doing everything in a game, including design, art, code and publishing.</li>
-            <li>A relatively simple but powerful control model spreadsheet gave me absolute power over the pace of the game and economy.</li>
-          </ul>
-        </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>F2P market is “Winner takes it all”. Making a small game (even at 0 cost) doesn’t guarantee even small
+            returns.</li>
+          <li>Succeeding in F2P is almost impossible without considerable resources.</li>
+          <li>Lots of new skills including C# and the basics of game publishing.</li>
+          <li>If I had to do the game again I would cut on a lot of extras (localisation, game center, etc.) before it
+            is proven a worthwhile effort.</li>
+          <li>A strong pre-production will make development much smoother.</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Game Pictures -->
-      <hr>
-      <div class="hd-game-vertical-grid">
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg01.png" alt="Toys & Goblins" width=100% height=auto>
-          <p id="footnoteText">+ The Toy Factory at later levels was truly a sight to behold!</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg02.png" alt="Toys & Goblins" width=100% height=auto>
-          <p id="footnoteText">+ A simplified crafting game within a pretty menu system.</p>
-        </div>
+    <!-- Game Additional Info - Proud -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
+        <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
+      </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>Having the grit to complete a complex side project over the course of two years.</li>
+          <li>Doing everything in a game, including design, art, code and publishing.</li>
+          <li>A relatively simple but powerful control model spreadsheet gave me absolute power over the pace of the
+            game and economy.</li>
+        </ul>
+      </div>
+    </div>
 
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg03.png" alt="Toys & Goblins" width=100% height=auto>
-          <p id="footnoteText">+ Around a hundred different toys to craft.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg04.png" alt="Toys & Goblins" width=100% height=auto>
-          <p id="footnoteText">+ The game was fully designed before the first line of code was written.</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg05.png" alt="Toys & Goblins" width=100% height=auto>
-          <p id="footnoteText">+ By completing achievements you made the world happier and happier..</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg06.png" alt="Toys & Goblins" width=100% height=auto>
-          <p id="footnoteText">+ I’m particularly proud of the game balancing.</p>
-        </div>
-        
+    <!-- Game Pictures -->
+    <hr>
+    <div class="hd-game-vertical-grid">
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg01.png" alt="Toys & Goblins" width=100%
+          height=auto>
+        <p id="footnoteText">+ The Toy Factory at later levels was truly a sight to behold!</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg02.png" alt="Toys & Goblins" width=100%
+          height=auto>
+        <p id="footnoteText">+ A simplified crafting game within a pretty menu system.</p>
       </div>
 
-      <!-- Bottom Bar -->
-      <hr>
-      <div class="footer">
-        <div>
-          <p id="normalText">Made with plain HTML <∕> & CSS { }</p>
-        </div>
-        <div>
-            <a href="https://www.google.com/">
-              <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px" style="margin-top:7px">
-            </a>
-        </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg03.png" alt="Toys & Goblins" width=100%
+          height=auto>
+        <p id="footnoteText">+ Around a hundred different toys to craft.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg04.png" alt="Toys & Goblins" width=100%
+          height=auto>
+        <p id="footnoteText">+ The game was fully designed before the first line of code was written.</p>
       </div>
 
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg05.png" alt="Toys & Goblins" width=100%
+          height=auto>
+        <p id="footnoteText">+ By completing achievements you made the world happier and happier..</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-tg06.png" alt="Toys & Goblins" width=100%
+          height=auto>
+        <p id="footnoteText">+ I’m particularly proud of the game balancing.</p>
+      </div>
 
-    </div> <!-- Main Container End -->
-  </body>
+    </div>
+
+    <p id="normalText">
+      <strong>Special thanks: </strong>Isabel Alves, Jordi Matosas, Marc Esteban, Oriol Rello.
+    </p>
+    <br>
+
+    <!-- Bottom Bar -->
+    <hr>
+    <div class="footer">
+      <div>
+        <p id="normalText">Made with HTML <∕> & CSS { }</p>
+      </div>
+      <div>
+        <a href="https://www.google.com/">
+          <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px"
+            style="margin-top:7px">
+        </a>
+      </div>
+    </div>
+
+
+  </div> <!-- Main Container End -->
+</body>
 
 </html>

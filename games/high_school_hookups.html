@@ -1,192 +1,234 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>XA ·· High School Hookups</title>
-      <meta name="description" content="Behind the scenes comments and insight from the development of High School Hookups by Gameloft"/>
-      <meta name="keywords" content="game design, game designer, mobile, games, video games, phone, java, HUH, High School Hookups, High School, Gameloft"/>       
-      <link rel="stylesheet" href="../mystyle.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4WWP94176D');
-      </script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>XA ·· High School Hookups</title>
+  <meta name="description"
+    content="Behind the scenes comments and insight from the development of High School Hookups by Gameloft" />
+  <meta name="keywords"
+    content="game design, game designer, mobile, games, video games, phone, java, HUH, High School Hookups, High School, Gameloft" />
+  <link rel="stylesheet" href="../mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="main-container"> <!-- Main Container -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-4WWP94176D');
+  </script>
+</head>
 
-      <div class="header"> <!-- Page Header -->
+<body>
+  <div class="main-container">
+    <!-- Main Container -->
+
+    <div class="header">
+      <!-- Page Header -->
+      <a href="../index.html">
+        <h1>Xavier Agulló</h1>
+      </a>
+
+      <div class="nav-bar-flexbox">
         <a href="../index.html">
-          <h1>Xavier Agulló</h1>
+          <div class="nav-bar-button" style="color:#00FFFF">
+            Work
+          </div>
         </a>
-
-        <div class="nav-bar-flexbox">
-          <a href="../index.html">
-            <div class="nav-bar-button" style="color:#00FFFF">
-              Work
-            </div>
-          </a>
-          <a href="../for_fun.html">
-            <div class="nav-bar-button">
-              For Fun
-            </div>
-          </a>
-          <a href="../about.html">
-            <div class="nav-bar-button">
-              About
-            </div>
-          </a>
-          <a href="../resume.html">
-            <div class="nav-bar-button">
-              Resume
-            </div>
-          </a>
-        </div>
+        <a href="../for_fun.html">
+          <div class="nav-bar-button">
+            For Fun
+          </div>
+        </a>
+        <a href="../about.html">
+          <div class="nav-bar-button">
+            About
+          </div>
+        </a>
+        <a href="../resume.html">
+          <div class="nav-bar-button">
+            Resume
+          </div>
+        </a>
       </div>
+    </div>
+    <hr>
+
+    <!-- Game Contents -->
+    <div class="game-top-grid">
+      <div>
+        <!-- Banner Picture -->
+        <img style="box-shadow: 3px 3px 4px #333333" src="../banners/HighSchool_banner.png" alt="High School Hookups"
+          width=100% height=auto>
+      </div>
+      <div>
+        <!-- About the Game -->
+        <p id="highlightedText">High School Hookups</p>
+        <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
+        <ul style="margin-top: 0px;">
+          <li><strong>Company: </strong>Gameloft</li>
+          <li><strong>Genre: </strong>Adventure</li>
+          <li><strong>Release Date: </strong>July 2010</li>
+          <li><strong>Size at release: </strong>811 Kb</li>
+          <li><strong>Distinctions: </strong>Part of the “Gameloft Classics:<br> 20 Years” Collection </li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <!-- About my work -->
       <hr>
+      <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
 
-      <!-- Game Contents -->
-      <div class="game-top-grid">
-        <div><!-- Banner Picture -->
-          <img style="box-shadow: 3px 3px 4px #333333" src="../banners/HighSchool_banner.png" alt="High School Hookups" width=100% height=auto>
-        </div>
-        <div><!-- About the Game -->
-          <p id="highlightedText">High School Hookups</p>
-          <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
-          <ul style="margin-top: 0px;">
-            <li><strong>Company: </strong>Gameloft</li>
-            <li><strong>Genre: </strong>Adventure</li>
-            <li><strong>Release Date: </strong>July 2010</li>
-            <li><strong>Size at release: </strong>811 Kb</li>
-            <li><strong>Distinctions: </strong>Part of the “Gameloft Classics:<br> 20 Years” Collection </li>
-          </ul>
-        </div>
-      </div>
+      <div class="two-column-description">
+        <p id="normalText" style="margin-top: 0px;">
+          One day a unique briefing came to my desk: “High School game” …the theme definitely caught my attention. My
+          original proposal was inspired by the tone of “Ferris Bueller's day off” and the wonderful series “Parker
+          Lewis Can’t Lose”. However the design lead of the studio asked me to go in the direction of “Mean Girls” with
+          a climactic ending in the classic prom night. It was a great decision because the game ended up being truly
+          FUN.
+          <br><br>
+          You started as the Canadian transfer student who joins a new high school and needs to earn his place in the
+          wild jungle. The gameplay consisted in running errands around, talking to people and the eventual mini-game
+          …nothing too fancy. But it was an explorer’s dream, with tons of branching sections, side missions and crazy
+          secrets. Production back then was quick/cheap enough that you could sneak in an “easter egg” when the
+          producers were not paying attention …and “High School Hookups” is full of them! The story was also really fun,
+          even lovable at some points.
+          <br>
+          The game sparked a little fire online like I have never seen for a java game. The now defunct Gameloft forums
+          were full of threads asking about the secrets in the game, or theorizing about the fate of the characters.
+          Youtube has plenty of videos that, even to this day, gather great comments from players, asking for a second
+          part in college. There’s also a wiki page, and even some instances of fan art.
+          <br><br>
+          But not everyone liked the game. We got a 2 out of 5 in Pocket Gamer, with the reviewer not being amused with
+          how often you had to be a jerk to get ahead on the social ladder …maybe unaware that is the knot plot that
+          resolves in the final act. In any case, this is my favorite professional project ever. I think the game
+          connected with many people on an emotional level, and I consider this the biggest achievement of my career
+          despite the bigger hits on F2P that came later.
 
-      <div><!-- About my work -->
-        <hr>
-        <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
-        
-        <div class="two-column-description">
-          <p id="normalText" style="margin-top: 0px;">
-            One day a unique briefing came to my desk: “High School game” …the theme definitely caught my attention. My original proposal was inspired by the tone of “Ferris Bueller's day off” and the wonderful series “Parker Lewis Can’t Lose”. However the design lead of the studio asked me to go in the direction of “Mean Girls” with a climactic ending in the classic prom night. It was a great decision because the game ended up being truly FUN.
-            <br><br>
-            You started as the Canadian transfer student who joins a new high school and needs to earn his place in the wild jungle. The gameplay consisted in running errands around, talking to people and the eventual mini-game …nothing too fancy. But it was an explorer’s dream, with tons of branching sections, side missions and crazy secrets. Production back then was quick/cheap enough that you could sneak in an “easter egg” when the producers were not paying attention …and “High School Hookups” is full of them! The story was also really fun, even lovable at some points.
-            <br>
-            The game sparked a little fire online like I have never seen for a java game. The now defunct Gameloft forums were full of threads asking about the secrets in the game, or theorizing about the fate of the characters. Youtube has plenty of videos that, even to this day, gather great comments from players, asking for a second part in college. There’s also a wiki page, and even some instances of fan art.
-            <br><br>
-            But not everyone liked the game. We got a 2 out of 5 in Pocket Gamer, with the reviewer not being amused with how often you had to be a jerk to get ahead on the social ladder …maybe unaware that is the knot plot that resolves in the final act. In any case, this is my favorite professional project ever. I think the game connected with many people on an emotional level, and I consider this the biggest achievement of my career despite the bigger hits on F2P that came later.
-  
-          </p>
-
-        </div>
-
-        <br>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Part of the “Gameloft Classics: 20 Years” Collection.</u>
-            <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
-          </p>
-          <a href="../index.html">
-            <p style="margin: 0px; text-align: right;" id="normalText"> 
-              <u>Use a java emulator to play the jar file</u>
-              <img src="../icons/icon_java.png" alt="learnings" width="17px" height="17px">
-            </p>
-          </a>
-        </a>
+        </p>
 
       </div>
+
       <br>
+      <a href="https://play.google.com/store/apps/details?id=com.gameloft.android.ANMP.GloftGLCL&hl=en&gl=US"
+        target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Part of the “Gameloft Classics: 20 Years” Collection.</u>
+          <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
+      <a href="../files/High_School_Hook_Ups_240x320.jar" download>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Use a java emulator to play the jar file</u>
+          <img src="../icons/icon_java.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
 
-      <!-- Game Additional Info - Learnings -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
-          <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>How to deal with headquarters requests, while allocating resources to delighters.</li>
-            <li>Working with non-linear narrative and sandbox environments (at a small scale). </li>
-            <li>Designing, writing and configuring branching dialogues with a node editor.</li>
-          </ul>
-        </div>
+    </div>
+    <br>
+
+    <!-- Game Additional Info - Learnings -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
+        <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
       </div>
-      
-      <!-- Game Additional Info - Proud -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
-          <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>The creativity and richness of the exploration, with players often completing the game several times to find it all.</li>
-            <li>You could play as either male or female, and all NPCs switched roles in the story accordingly. Dialogues had to account for this too. Hard stuff, but worked great.</li>
-            <li>A story full of twists, uncomfortable situations, funny moments and some endearing ones too.</li>
-          </ul>
-        </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>How to deal with headquarters requests, while allocating resources to delighters.</li>
+          <li>Working with non-linear narrative and sandbox environments (at a small scale). </li>
+          <li>Designing, writing and configuring branching dialogues with a node editor.</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Game Pictures -->
-      <hr>
-      <div class="java-game-grid">
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh01.png" alt="High School Hookups" width=100% height=auto>
-          <p id="footnoteText">+ The campus was a sandbox with tons of activties.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh02.png" alt="High School Hookups" width=100% height=auto>
-          <p id="footnoteText">+ All stereotypes were there, but each with its own twist.</p>
-        </div>
-
-        <div class="java-double-picture">
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh03.png" alt="High School Hookups" width=100% height=auto>
-          <p id="footnoteText">+ Developed in only 6 months, scripting of a chaper started with just a quick draft of the main situations.</p>
-        </div>
-        <div class="java-double-picture">
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh04.png" alt="High School Hookups" width=100% height=auto>
-          <p id="footnoteText">+ Despite being a small java game, it counted with a little fandom online.</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh05.png" alt="High School Hookups" width=100% height=auto>
-          <p id="footnoteText">+ Featuring several mini-games: basket, arcades, etc.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh06.png" alt="High School Hookups" width=100% height=auto>
-          <p id="footnoteText">+ Choose your answers carefully. The principal is a tough guy!</p>
-        </div>
-        
+    <!-- Game Additional Info - Proud -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
+        <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
       </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>The creativity and richness of the exploration, with players often completing the game several times to
+            find it all.</li>
+          <li>You could play as either male or female, and all NPCs switched roles in the story accordingly. Dialogues
+            had to account for this too. Hard stuff, but worked great.</li>
+          <li>A story full of twists, uncomfortable situations, funny moments and some endearing ones too.</li>
+        </ul>
+      </div>
+    </div>
 
-      <!-- Bottom Bar -->
-      <hr>
-      <div class="footer">
-        <div>
-          <p id="normalText">Made with plain HTML <∕> & CSS { }</p>
-        </div>
-        <div>
-            <a href="https://www.google.com/">
-              <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px" style="margin-top:7px">
-            </a>
-        </div>
+    <!-- Game Pictures -->
+    <hr>
+    <div class="java-game-grid">
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh01.png" alt="High School Hookups"
+          width=100% height=auto>
+        <p id="footnoteText">+ The campus was a sandbox with tons of activties.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh02.png" alt="High School Hookups"
+          width=100% height=auto>
+        <p id="footnoteText">+ All stereotypes were there, but each with its own twist.</p>
       </div>
 
+      <div class="java-double-picture">
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh03.png" alt="High School Hookups"
+          width=100% height=auto>
+        <p id="footnoteText">+ Developed in only 6 months, scripting of a chaper started with just a quick draft of the
+          main situations.</p>
+      </div>
+      <div class="java-double-picture">
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh04.png" alt="High School Hookups"
+          width=100% height=auto>
+        <p id="footnoteText">+ Despite being a small java game, it counted with a little fandom online.</p>
+      </div>
 
-    </div> <!-- Main Container End -->
-  </body>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh05.png" alt="High School Hookups"
+          width=100% height=auto>
+        <p id="footnoteText">+ Featuring several mini-games: basket, arcades, etc.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-huh06.png" alt="High School Hookups"
+          width=100% height=auto>
+        <p id="footnoteText">+ Choose your answers carefully. The principal is a tough guy!</p>
+      </div>
+
+    </div>
+
+    <p id="normalText">
+      <strong>Special thanks: </strong>Sanders Keel, Gaël Bertrand, Choongsic Ham, Maxim Sucharski, Steven Gores, Tammy
+      Blythe.
+    </p>
+    <br>
+
+    <!-- Bottom Bar -->
+    <hr>
+    <div class="footer">
+      <div>
+        <p id="normalText">Made with HTML <∕> & CSS { }</p>
+      </div>
+      <div>
+        <a href="https://www.google.com/">
+          <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px"
+            style="margin-top:7px">
+        </a>
+      </div>
+    </div>
+
+
+  </div> <!-- Main Container End -->
+</body>
 
 </html>

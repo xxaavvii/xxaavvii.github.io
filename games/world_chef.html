@@ -1,193 +1,237 @@
 <!DOCTYPE html>
 
 <html lang="en">
-    <head>
-      <meta charset="utf-8">
-      <title>XA ·· World Chef</title>
-      <meta name="description" content="Behind the scenes comments and insight from the development of World Chef by Socialpoint"/>
-      <meta name="keywords" content="game design, game designer, mobile, games, video games, F2P, free to play, World Chef, worldchef, Socialpoint, Social Point"/>       
-      <link rel="stylesheet" href="../mystyle.css">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <link rel="preconnect" href="https://fonts.googleapis.com">
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-      <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-      <!-- Google tag (gtag.js) -->
-      <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
-      <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'G-4WWP94176D');
-      </script>
-    </head>
+<head>
+  <meta charset="utf-8">
+  <title>XA ·· World Chef</title>
+  <meta name="description"
+    content="Behind the scenes comments and insight from the development of World Chef by Socialpoint" />
+  <meta name="keywords"
+    content="game design, game designer, mobile, games, video games, F2P, free to play, World Chef, worldchef, Socialpoint, Social Point" />
+  <link rel="stylesheet" href="../mystyle.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;800&display=swap" rel="stylesheet">
 
-  <body>
-    <div class="main-container"> <!-- Main Container -->
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-4WWP94176D"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-4WWP94176D');
+  </script>
+</head>
 
-      <div class="header"> <!-- Page Header -->
+<body>
+  <div class="main-container">
+    <!-- Main Container -->
+
+    <div class="header">
+      <!-- Page Header -->
+      <a href="../index.html">
+        <h1>Xavier Agulló</h1>
+      </a>
+
+      <div class="nav-bar-flexbox">
         <a href="../index.html">
-          <h1>Xavier Agulló</h1>
+          <div class="nav-bar-button" style="color:#00FFFF">
+            Work
+          </div>
         </a>
-
-        <div class="nav-bar-flexbox">
-          <a href="../index.html">
-            <div class="nav-bar-button" style="color:#00FFFF">
-              Work
-            </div>
-          </a>
-          <a href="../for_fun.html">
-            <div class="nav-bar-button">
-              For Fun
-            </div>
-          </a>
-          <a href="../about.html">
-            <div class="nav-bar-button">
-              About
-            </div>
-          </a>
-          <a href="../resume.html">
-            <div class="nav-bar-button">
-              Resume
-            </div>
-          </a>
-        </div>
+        <a href="../for_fun.html">
+          <div class="nav-bar-button">
+            For Fun
+          </div>
+        </a>
+        <a href="../about.html">
+          <div class="nav-bar-button">
+            About
+          </div>
+        </a>
+        <a href="../resume.html">
+          <div class="nav-bar-button">
+            Resume
+          </div>
+        </a>
       </div>
+    </div>
+    <hr>
+
+    <!-- Game Contents -->
+    <div class="game-top-grid">
+      <div>
+        <!-- Banner Picture -->
+        <img style="box-shadow: 3px 3px 4px #333333" src="../banners/WorldChef_banner.png" alt="World Chef" width=100%
+          height=auto>
+      </div>
+      <div>
+        <!-- About the Game -->
+        <p id="highlightedText">World Chef</p>
+        <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
+        <ul style="margin-top: 0px;">
+          <li><strong>Company: </strong>Socialpoint</li>
+          <li><strong>Genre: </strong>Crafting / Resource Management</li>
+          <li><strong>Release Date: </strong>January 2016</li>
+          <li><strong>Downloads: </strong>38 million (as of Oct’22)</li>
+          <li><strong>Size at release: </strong>79MB on release</li>
+        </ul>
+      </div>
+    </div>
+
+    <div>
+      <!-- About my work -->
       <hr>
+      <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
 
-      <!-- Game Contents -->
-      <div class="game-top-grid">
-        <div><!-- Banner Picture -->
-          <img style="box-shadow: 3px 3px 4px #333333" src="../banners/WorldChef_banner.png" alt="World Chef" width=100% height=auto>
-        </div>
-        <div><!-- About the Game -->
-          <p id="highlightedText">World Chef</p>
-          <p style="margin-top: 12px;" id="blueTitleText">About the game</p>
-          <ul style="margin-top: 0px;">
-            <li><strong>Company: </strong>Socialpoint</li>
-            <li><strong>Genre: </strong>Crafting / Resource Management</li>
-            <li><strong>Release Date: </strong>January 2016</li>
-            <li><strong>Downloads: </strong>38 million (as of Oct’22)</li>
-            <li><strong>Size at release: </strong>79MB on release</li>
-          </ul>
-        </div>
-      </div>
+      <div class="two-column-description">
+        <p id="normalText" style="margin-top: 0px;">
+          In 2015 I started working at Socialpoint, a Spanish startup that was seeing quick growth after its success
+          with “Dragon City” and “Monster Legends”. My first project there was “World Chef”, a wonderful crafting game
+          where you had to manage a restaurant, cook and serve your clients. The game was originally inspired by “Hay
+          Day” but the restaurant setting shaped not only the visuals but also the mechanics and soon the game got its
+          own essence.
+          <br><br>
+          I joined mid development and I worked alongside another designer. He was very strong on balancing and excel
+          skills and I took charge of the front-end of the game, including the design of systems, UI and content. All
+          under supervision of the Product Manager. My biggest contribution was a content reorganization before world
+          launch that increased day 30 retention by a big margin.
+          <br><br>
+          By working on a resource management game I leveled up my balancing and free-to-play skills compared to my
+          previous project that, being more arcade, was more shallow in that regard. Socialpoint is also proud to be a
+          “data-driven” environment and having access to its intelligence tools transformed and greatly enhanced the way
+          I worked.
+          <br><br>
+          The game was very rich in content, with more than 30 chefs from all over the world and dishes ranging from the
+          classic American “Cheeseburger” to more exotic dishes like Korean “bibimbap” or Vietnamese “Banh Xeo”. You
+          also had to take care of home deliveries, a vineyard, the social market or a chillout area that celebrated
+          weddings, birthdays and pool parties… never a dull moment! While some areas may look a little dated nowadays,
+          I’m still quite fond of the game.
+          <br><br>
+          “World Chef” is not a super hit, but it is a solid title with good reviews and that keeps making money to this
+          day with almost no maintenance. So everyone thought it deserved a second part, but that’s another, very
+          different, story…
 
-      <div><!-- About my work -->
-        <hr>
-        <p style="margin-top: 12px;" id="blueTitleText">About my work</p>
-        
-        <div class="two-column-description">
-          <p id="normalText" style="margin-top: 0px;">
-            In 2015 I started working at Socialpoint, a Spanish startup that was seeing quick growth after its success with “Dragon City” and “Monster Legends”. My first project there was “World Chef”, a wonderful crafting game where you had to manage a restaurant, cook and serve your clients. The game was originally inspired by “Hay Day” but the restaurant setting shaped not only the visuals but also the mechanics and soon the game got its own essence.
-            <br><br>
-            I joined mid development and I worked alongside another designer. He was very strong on balancing and excel skills and I took charge of the front-end of the game, including the design of systems, UI and content. All under supervision of the Product Manager. My biggest contribution was a content reorganization before world launch that increased day 30 retention by a big margin.
-            <br><br>
-            By working on a resource management game I leveled up my balancing and free-to-play skills compared to my previous project that, being more arcade, was more shallow in that regard. Socialpoint is also proud to be a “data-driven” environment and having access to its intelligence tools transformed and greatly enhanced the way I worked.
-            <br><br>
-            The game was very rich in content, with more than 30 chefs from all over the world and dishes ranging from the classic American “Cheeseburger” to more exotic dishes like Korean “bibimbap” or Vietnamese “Banh Xeo”. You also had to take care of home deliveries, a vineyard, the social market or a chillout area that celebrated weddings, birthdays and pool parties… never a dull moment! While some areas may look a little dated nowadays, I’m still quite fond of the game.
-            <br><br>
-            “World Chef” is not a super hit, but it is a solid title with good reviews and that keeps making money to this day with almost no maintenance. So everyone thought it deserved a second part, but that’s another, very different, story…
-  
-          </p>
-
-        </div>
-
-        <br>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Download it for iOS</u>
-            <img src="../icons/icon_ios.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
-        <a href="../index.html">
-          <p style="margin: 0px; text-align: right;" id="normalText"> 
-            <u>Download it for Android</u>
-            <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
-          </p>
-        </a>
+        </p>
 
       </div>
+
       <br>
+      <a href="https://apps.apple.com/us/app/world-chef/id1010677881" target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Download it for iOS</u>
+          <img src="../icons/icon_ios.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
+      <a href="https://play.google.com/store/apps/details?id=es.parrotgames.restaurantcity&hl=en&gl=US" target=”_blank”>
+        <p style="margin: 0px; text-align: right;" id="normalText">
+          <u>Download it for Android</u>
+          <img src="../icons/icon_android.png" alt="learnings" width="17px" height="17px">
+        </p>
+      </a>
 
-      <!-- Game Additional Info - Learnings -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
-          <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>Creating spreadsheet models for virtual economies.</li>
-            <li>Using spreadsheets to manage the large amounts of data a resource management game requires.</li>
-            <li>Use intelligence tools to check the health of the different KPI (Key Performance Indicators).</li>
-          </ul>
-        </div>
+    </div>
+    <br>
+
+    <!-- Game Additional Info - Learnings -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I learned</p>
+        <img src="../icons/icon_learnings.png" alt="learnings" width="50px" height="50px">
       </div>
-      
-      <!-- Game Additional Info - Proud -->
-      <hr>
-      <div class="game-additional-info-grid">
-        <div>
-          <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
-          <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
-        </div>
-        <div>
-          <ul style="margin-top: 0px;">
-            <li>Adapting quickly to a different environment, with different values and priorities.</li>
-            <li>Releasing what was arguably the best restaurant game in the appstore.</li>
-          </ul>
-        </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>Creating spreadsheet models for virtual economies.</li>
+          <li>Using spreadsheets to manage the large amounts of data a resource management game requires.</li>
+          <li>Use intelligence tools to check the health of the different KPI (Key Performance Indicators).</li>
+        </ul>
       </div>
+    </div>
 
-      <!-- Game Pictures -->
-      <hr>
-      <div class="hd-game-horizontal-grid">
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc01.png" alt="World Chef" width=100% height=auto>
-          <p id="footnoteText">+ The game features 30 chefs and more than 120 dishes from all around the world.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc02.png" alt="World Chef" width=100% height=auto>
-          <p id="footnoteText">+ Manage not only your restaurant, but home deliveries, a market, a vineyard and a chillout area!</p>
-        </div>
+    <!-- Game Additional Info - Proud -->
+    <hr>
+    <div class="game-additional-info-grid">
+      <div>
+        <p style="margin-top: 0px; margin-bottom: 5px;" id="blueTitleText">What I'm proud of</p>
+        <img src="../icons/icon_proud.png" alt="learnings" width="50px" height="50px">
+      </div>
+      <div>
+        <ul style="margin-top: 0px;">
+          <li>Adapting quickly to a different environment, with different values and priorities.</li>
+          <li>Releasing what was arguably the best restaurant game in the appstore.</li>
+        </ul>
+      </div>
+    </div>
 
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc03.png" alt="World Chef" width=100% height=auto>
-          <p id="footnoteText">+ The game offered a lot of decoration options. Look, what a cool Japanese corner! </p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc04.png" alt="World Chef" width=100% height=auto>
-          <p id="footnoteText">+ One of the updates brought VIP clients from rock stars to actors including the CEO’s of Social Point.</p>
-        </div>
-
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc05.png" alt="World Chef" width=100% height=auto>
-          <p id="footnoteText">+ Thanks to Vaggelis, I learned how to create a control model spreadsheet for a complex game economy.</p>
-        </div>
-        <div>
-          <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc06.png" alt="World Chef" width=100% height=auto>
-          <p id="footnoteText">+ This is the top secret document we used to keep track of the unlock order of chefs, ingredients and recipes.</p>
-        </div>
-        
+    <!-- Game Pictures -->
+    <hr>
+    <div class="hd-game-horizontal-grid">
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc01.png" alt="World Chef" width=100%
+          height=auto>
+        <p id="footnoteText">+ The game features 30 chefs and more than 120 dishes from all around the world.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc02.png" alt="World Chef" width=100%
+          height=auto>
+        <p id="footnoteText">+ Manage not only your restaurant, but home deliveries, a market, a vineyard and a chillout
+          area!</p>
       </div>
 
-      <!-- Bottom Bar -->
-      <hr>
-      <div class="footer">
-        <div>
-          <p id="normalText">Made with plain HTML <∕> & CSS { }</p>
-        </div>
-        <div>
-            <a href="https://www.google.com/">
-              <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px" style="margin-top:7px">
-            </a>
-        </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc03.png" alt="World Chef" width=100%
+          height=auto>
+        <p id="footnoteText">+ The game offered a lot of decoration options. Look, what a cool Japanese corner! </p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc04.png" alt="World Chef" width=100%
+          height=auto>
+        <p id="footnoteText">+ One of the updates brought VIP clients from rock stars to actors including the CEO’s of
+          Social Point.</p>
       </div>
 
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc05.png" alt="World Chef" width=100%
+          height=auto>
+        <p id="footnoteText">+ Thanks to Evangelos Leivaditis, I learned how to create a control model spreadsheet for a
+          complex game economy.</p>
+      </div>
+      <div>
+        <img style="box-shadow: 3px 3px 4px #333333" src="img/xavier-agullo-wc06.png" alt="World Chef" width=100%
+          height=auto>
+        <p id="footnoteText">+ This is the top secret document we used to keep track of the unlock order of chefs,
+          ingredients and recipes.</p>
+      </div>
 
-    </div> <!-- Main Container End -->
-  </body>
+    </div>
+
+    <p id="normalText">
+      <strong>Special thanks: </strong>Alexandre Besenval, Blanca Joplin, Celia González, David Elfau, Edgar Sicilia,
+      Evangelos Leivaditis, Gianluca Panniello, Glenn Andrew Teeuw, Javier G Alcalde, Jean-Luc Lardoux, Jonathan
+      González, Juan Maturana, Juanjo Mejías, Karlos Molinos, Marta Plaza, Miguel Janer, Noelia Rodriguez, Rafa Lecina,
+      Rafael Lecina , Roger Agustí.
+    </p>
+    <br>
+
+    <!-- Bottom Bar -->
+    <hr>
+    <div class="footer">
+      <div>
+        <p id="normalText">Made with HTML <∕> & CSS { }</p>
+      </div>
+      <div>
+        <a href="https://www.google.com/">
+          <img src="../icons/icon_linkedin.png" alt="linkedin" align="right" width="22px" height="22px"
+            style="margin-top:7px">
+        </a>
+      </div>
+    </div>
+
+
+  </div> <!-- Main Container End -->
+</body>
 
 </html>
