@@ -143,6 +143,15 @@ hr {
 
 }
 
+@media screen and (max-width:992px) {
+	.optionalButton {
+		color: #00FFFF;
+		font-family: 'Inter', sans-serif;
+		font-size: 1.15em;
+		font-weight: 800;
+	}
+}
+
 /* +++++++++++++++ MAIN CONTAINER +++++++++++++++ */
 .main-container {
 	background-color: #858585;
@@ -169,6 +178,7 @@ hr {
 	.header {
 		grid-template-columns: auto;
 		padding-bottom: 0px;
+		margin-top: 0.5em;
 		text-align: left;
 	}
 }
@@ -176,6 +186,7 @@ hr {
 @media screen and (max-width:576px) {
 	.header {
 		grid-template-columns: auto;
+		margin-top: 1em;
 		padding-bottom: 0px;
 		text-align: center;
 	}
